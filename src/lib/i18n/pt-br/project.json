@@ -1,0 +1,387 @@
+[
+	{
+		"id": "acquadata",
+		"title": "AcquaData",
+		"description": "Monitoramento e gerenciamento para fazendas de carcinicultura (cultivo de camarão) com telemetria IoT, dashboards e relatórios analíticos",
+		"banner": {
+			"src": "/projects/acquadata/banner.webp",
+			"alt": "Capa do AcquaData",
+			"width": 1920,
+			"height": 1080
+		},
+		"technologies": [
+            "golang",
+            "postgresql",
+			"docker",
+            "mqtt",
+			"svelte"
+		],
+		"period": "2026",
+		"role": "Engenheiro de Software Fullstack",
+		"links": {
+			"demo": "https://carcinicultura.jctech.dpdns.org",
+			"repository": ""
+		},
+		"more": {
+			"overview": "O AcquaData foi criado para centralizar leituras de sensores, gerenciamento de tanques e geração de relatórios para produtores de camarão. Os dispositivos enviam telemetria por MQTT, enquanto o backend processa e armazena os dados no PostgreSQL.",
+			"features": [
+				"Cadastro e autenticação de usuários com JWT",
+				"Gerenciamento individual de viveiros escavados (tanques)",
+				"Recebimento de telemetria enviada por dispositivos ESP32-C6 em uma rede zigbee via protocolo de mensageria MQTT",
+				"Visualização em tempo real de temperatura, pH, sólidos dissolvidos, turbidez e outras métricas",
+				"Geração de relatórios impressos ou planilhas no Excel por tanque e intervalo de tempo",
+				"Histórico completo de leituras e identificação de alterações importantes",
+                "Envio de alertas importantes via Whatsapp"
+			],
+			"images": [
+				{
+					"src": "/projects/acquadata/dashboard.png",
+					"alt": "Dashboard com cartões de indicadores e gráficos das leituras de um viveiro",
+					"description": "Dashboard principal utilizado para acompanhar as medições atuais e históricas de cada viveiro",
+					"width": 1280,
+					"height": 720,
+					"features": [
+						"Resumo da leitura mais recente para cada viveiro",
+						"Seleção individual de viveiro",
+						"Informações em tempo real sobre temperatura, pH, sólidos dissolvidos e turbidez"
+					]
+				},
+				{
+					"src": "/projects/acquadata/whatsapp.png",
+					"alt": "Menu de integração com Whatsapp",
+					"description": "Menu para conectar número do Whatsapp e receber alertas importantes via mensagem",
+					"width": 1280,
+					"height": 720,
+					"features": [
+						"Integrar Whatsapp com dashboard via QR Code",
+						"Configuração de parâmetros mínimo e máximo recomendados para cada métrica",
+						"Definição de regras para envio de alertas"
+					]
+				},
+				{
+					"src": "/projects/acquadata/relatorios.png",
+					"alt": "Tela de relatórios com filtros de período e métricas",
+					"description": "Geração de relatórios impressos em PDF, planilhas no Excel ou CSV por viveiro e intervalo de tempo",
+					"width": 1280,
+					"height": 720,
+					"features": [
+						"Filtragem por período.",
+						"Seleção de métricas.",
+						"Comparação entre tanques.",
+						"Exportação de informações."
+					]
+				},
+				{
+					"src": "/projects/acquadata/tanques.png",
+					"alt": "Tela de tanques com listagem de tanques cadastrados",
+					"description": "Gerenciamento de tanques e definição de dispositivos de medição para cada viveiro",
+					"width": 1280,
+					"height": 720,
+					"features": [
+						"Cadastro e edição de tanques",
+						"Definir dispositivos que realizam telemetria para cada tanque"
+					]
+				}
+			],
+			"results": [
+				"Servidor capaz de processar dezenas de leituras simultâneas de sensores em tempo real",
+				"Servidor capaz de detectar leitura fora do esperado e enviar alertas via Whatsapp",
+				"Painel web responsivo e com gráficos interativos para visualização de métricas em tempo real",
+                "Sistema de relatórios impressos em PDF, exportação de dados para Excel ou CSV",
+                "Projeto pronto para evoluir e se tornar um ERP completo para fazendas de carcinicultura"
+			],
+			"challenges": [
+				"Preparar rede Zigbee para que o dispositivo funcione em ambientes abertos e com difícil acesso a Wi-Fi",
+                "Garantir que o hardware funcione com baixo consumo de energia e seja recarregável com energia solar",
+                "Criar sistema de provisionamento para que o usuário final vincule seu dispotivo à sua conta de forma simples",
+                "Garantir que o servidor seja capaz de processar um grande número de leituras simultâneas"
+			],
+			"learnings": [
+				"Protocolo de mensageria MQTT e integração com dispositivos IoT",
+				"Como meu primeiro projeto em Go, aprendi bastante sobre a linguagem e processamento assíncrono"
+			]
+		}
+	},
+	{
+		"id": "torcidaspro",
+		"title": "TorcidasPRO",
+		"description": "A plataforma definitiva para gerenciar sócios, pagamentos, loja virtual e financeiro da sua torcida ou clube. Tudo em um único lugar, sem complicações. ",
+		"banner": {
+			"src": "/projects/torcidaspro/banner.webp",
+			"alt": "Logomarca da TorcidasPRO",
+			"width": 1920,
+			"height": 1080
+		},
+		"technologies": [
+            "php",
+            "laravel",
+			"postgresql",
+			"docker",
+			"svelte"
+		],
+		"period": "2025",
+		"role": "Desenvolvedor Frontend",
+		"links": {
+			"demo": "https://torcidas.pro",
+			"repository": ""
+		},
+		"more": {
+			"overview": "O AcquaData foi criado para centralizar leituras de sensores, gerenciamento de tanques e geração de relatórios para produtores de camarão. Os dispositivos enviam telemetria por MQTT, enquanto o backend processa e armazena os dados no PostgreSQL.",
+			"features": [
+				"Cadastro e autenticação de usuários com JWT",
+				"Gerenciamento individual de viveiros escavados (tanques)",
+				"Recebimento de telemetria enviada por dispositivos ESP32-C6 em uma rede zigbee via protocolo de mensageria MQTT",
+				"Visualização em tempo real de temperatura, pH, sólidos dissolvidos, turbidez e outras métricas",
+				"Geração de relatórios impressos ou planilhas no Excel por tanque e intervalo de tempo",
+				"Histórico completo de leituras e identificação de alterações importantes",
+                "Envio de alertas importantes via Whatsapp"
+			],
+			"images": [
+				{
+					"src": "/projects/torcidaspro/dashboard.png",
+					"alt": "Dashboard com cartões de indicadores financeiros e histórico recente de sócios e pagamentos",
+					"description": "Dashboard principal utilizado para acompanhar indicadores financeiros e histórico recente de sócios e pagamentos",
+					"width": 1280,
+					"height": 720,
+					"features": [
+						"Resumo rápido de métricas financeiras",
+						"Resumo de pedidos e sócios mais recentes"
+					]
+				},
+				{
+					"src": "/projects/torcidaspro/cores.png",
+					"alt": "Menu de configurações com personalização completa do site",
+					"description": "Menu de configurações com personalização completa da plataforma com visualização em tempo real",
+					"width": 1280,
+					"height": 720,
+					"features": [
+						"Personalização de cores, imagens, funcionalidades e textos da plataforma",
+						"Visualização em tempo real das alterações"
+					]
+				},
+				{
+					"src": "/projects/torcidaspro/financeiro.png",
+					"alt": "Painel de controle financeiro da plataforma",
+					"description": "Controle financeiro completo, com gerenciamento de pedidos, planos de sócio-torcedor, contas de gateways de pagamento e integração com fretamento",
+					"width": 1280,
+					"height": 720,
+					"features": [
+						"Configurar gateways de pagamento e contas bancárias",
+						"Gerenciamento completo de receitas e despesas",
+						"Integrar produtos com sistemas de fretamento"
+					]
+				},
+				{
+					"src": "/projects/torcidaspro/pedidos.png",
+					"alt": "Painel de controle de pedidos da plataforma",
+					"description": "Gerenciamento de pedidos, pagamentos e status de entrega",
+					"width": 1280,
+					"height": 720,
+					"features": [
+						"Visualizar pedidos dos usuários",
+						"Gerenciar entregas e valor de fretes"
+					]
+				},
+				{
+					"src": "/projects/torcidaspro/produtos.png",
+					"alt": "Painel de controle de produtos da plataforma",
+					"description": "Gerenciamento de produtos com controle de estoque, medidas e pesos",
+					"width": 1280,
+					"height": 720,
+					"features": [
+						"Realizar medida e peso dos produtos para integrar com sistemas de fretamento",
+						"Fazer controle de promoções e estoque"
+					]
+				},
+								{
+					"src": "/projects/torcidaspro/torcedor.png",
+					"alt": "Painel do torcedor",
+					"description": "Painel do torcedor com check-in em eventos, programas de fidelidade e histórico de pedidos",
+					"width": 1280,
+					"height": 720,
+					"features": [
+						"Confirmar presença em eventos",
+						"Acumular pontos e trocar por recompensas",
+						"Assinar planos de sócio-torcedor e conferir pedidos",
+						"Manter dados cadastrais atualizados"
+					]
+				}
+			],
+			"results": [
+				"Fortalecimento de torcidas dos principais clubes do Brasil",
+				"Diversas avaliações positivas de clientes em relação a facilidade na criação do site"
+			],
+			"challenges": [
+				"Garantir que toda a plataforma seja responsiva e funcione em qualquer dispositivo",
+				"Criar uma interface onde qualquer usuário consiga criar seu site de qualquer lugar sem precisar de conhecimento técnico",
+				"Gerenciar o cache e otimizar carregamento de configurações garantindo alterações feitas em tempo real e baixa latência para o usuário final"
+			],
+			"learnings": [
+				"Conheci formas de adaptar design de interfaces desktop para dispositivos móveis",
+				"Gerenciamento de cache do lado do servidor para minimizar latência ao usuário final",
+				"Criar interfaces com cores dinâmicas e totalmente personalizáveis permitindo que qualquer cliente consiga colocar sua identidade visual"
+			]
+		}
+	},
+	{
+		"id": "leaofut",
+		"title": "LeãoFut",
+		"description": "Projeto de estudos para aprendizado de web scraping, processo de extração, transformação e carregamento de dados (ETL) e análise de dados",
+		"banner": {
+			"src": "/projects/leaofut/banner.webp",
+			"alt": "Banner do LeãoFut",
+			"width": 1920,
+			"height": 1080
+		},
+		"technologies": [
+            "python",
+			"svelte",
+			"chartjs"
+		],
+		"period": "2026",
+		"role": "Engenheiro de Dados",
+		"links": {
+			"demo": "https://leaofut.vercel.app",
+			"repository": ""
+		},
+		"more": {
+			"overview": "",
+			"features": [
+				"Web scraping da plataforma Transfermarkt para extração de dados do clube e atletas",
+				"Informações sobre atletas, histórico de transferências e valor de mercado",
+				"Seção para exploração do elenco",
+				"Seção de análises com gráficos interativos e comparações entre atletas"
+			],
+			"images": [
+				{
+					"src": "/projects/acquadata/dashboard.webp",
+					"alt": "Dashboard com cartões de indicadores e gráficos das leituras de um tanque",
+					"description": "Dashboard principal utilizado para acompanhar as condições atuais e históricas de cada tanque.",
+					"width": 1280,
+					"height": 720,
+					"features": [
+						"Resumo das leituras mais recentes.",
+						"Gráficos com evolução das métricas.",
+						"Seleção individual de tanques.",
+						"Identificação visual de valores fora do esperado."
+					]
+				},
+				{
+					"src": "/projects/acquadata/tanks.webp",
+					"alt": "Página com a listagem dos tanques cadastrados no AcquaData",
+					"description": "Área de gerenciamento dos tanques vinculados à propriedade do usuário.",
+					"width": 1280,
+					"height": 720,
+					"features": [
+						"Cadastro e edição de tanques.",
+						"Visualização do estado de cada tanque.",
+						"Acesso rápido ao histórico de leituras."
+					]
+				},
+				{
+					"src": "/projects/acquadata/reports.webp",
+					"alt": "Tela de relatórios com filtros de período e métricas",
+					"description": "Módulo de relatórios para análise de dados históricos da produção.",
+					"width": 1280,
+					"height": 720,
+					"features": [
+						"Filtragem por período.",
+						"Seleção de métricas.",
+						"Comparação entre tanques.",
+						"Exportação de informações."
+					]
+				}
+			],
+			"results": [
+				"Interface moderna e responsiva para exploração de dados",
+				"Integração com web scraping via API REST"
+			],
+			"challenges": [
+				"Garantir que os dados carreguem rapidamente sem realizar web scraping novamente para cada requisição",
+				"Gerar um JSON pronto para consumo da interface com um único script em Python, garantindo carregamento rápido"
+			],
+			"learnings": [
+				"Web scraping com as bibliotecas Beautiful Soup, Selenium e Requests",
+				"Visualização de dados usando gráficos da biblioteca Chart.js",
+				"Processo de extração, transformação e carregamento de dados (ETL) com Python"
+			]
+		}
+	},
+	{
+		"id": "cartograficos",
+		"title": "CARtográficos",
+		"description": "Solução proposta para o hackaton HaCARthon sobre melhorias no CAR (Cadastro Ambiental Rural), referente ao desafio: Melhorar os dados geoespaciais do CAR",
+		"banner": {
+			"src": "/projects/cartograficos/banner.webp",
+			"alt": "Banner do Cartográficos",
+			"width": 1920,
+			"height": 1080
+		},
+		"technologies": [
+            "figma"
+		],
+		"period": "2026",
+		"role": "Analista de Sistemas / Designer UI/UX",
+		"links": {
+			"demo": "",
+			"repository": ""
+		},
+		"more": {
+			"overview": "O hackaton proposto pela Enap tem como finalidade o desenvolvimento de soluções inovadoras que contribuam para para o fortalecimento do Sistema do Cadastro Ambiental Rural (SICAR), escolhemos seguir com o desafio de melhorar os dados geoespaciais do CAR e sugerimos um sistema para realizar demarcação de imóvel via GPS, fornecendo quase 100% de precisão",
+			"features": [],
+			"images": [
+				{
+					"src": "/projects/acquadata/dashboard.webp",
+					"alt": "Dashboard com cartões de indicadores e gráficos das leituras de um tanque",
+					"description": "Dashboard principal utilizado para acompanhar as condições atuais e históricas de cada tanque.",
+					"width": 1280,
+					"height": 720,
+					"features": [
+						"Resumo das leituras mais recentes.",
+						"Gráficos com evolução das métricas.",
+						"Seleção individual de tanques.",
+						"Identificação visual de valores fora do esperado."
+					]
+				},
+				{
+					"src": "/projects/acquadata/tanks.webp",
+					"alt": "Página com a listagem dos tanques cadastrados no AcquaData",
+					"description": "Área de gerenciamento dos tanques vinculados à propriedade do usuário.",
+					"width": 1280,
+					"height": 720,
+					"features": [
+						"Cadastro e edição de tanques.",
+						"Visualização do estado de cada tanque.",
+						"Acesso rápido ao histórico de leituras."
+					]
+				},
+				{
+					"src": "/projects/acquadata/reports.webp",
+					"alt": "Tela de relatórios com filtros de período e métricas",
+					"description": "Módulo de relatórios para análise de dados históricos da produção.",
+					"width": 1280,
+					"height": 720,
+					"features": [
+						"Filtragem por período.",
+						"Seleção de métricas.",
+						"Comparação entre tanques.",
+						"Exportação de informações."
+					]
+				}
+			],
+			"results": [
+				"Interface moderna e responsiva para exploração de dados",
+				"Integração com web scraping via API REST"
+			],
+			"challenges": [
+				"Garantir que os dados carreguem rapidamente sem realizar web scraping novamente para cada requisição",
+				"Gerar um JSON pronto para consumo da interface com um único script em Python, garantindo carregamento rápido"
+			],
+			"learnings": [
+				"Web scraping com as bibliotecas Beautiful Soup, Selenium e Requests",
+				"Visualização de dados usando gráficos da biblioteca Chart.js",
+				"Processo de extração, transformação e carregamento de dados (ETL) com Python"
+			]
+		}
+	}
+]

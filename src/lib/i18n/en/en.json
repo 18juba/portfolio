@@ -19,5 +19,40 @@
         "projects": "Authorial or Academic Projects",
         "experience": "Professional Experiences",
         "education": "Academic Formation"
+    },
+
+    "ui": {
+        "common": {
+            "linkedin": "LinkedIn",
+            "newTabSuffix": ", opens in a new tab",
+            "linkedinAlt": "LinkedIn icon",
+            "profileAlt": "Photo of Jorge Lucas"
+        },
+        "navigation": {
+            "ariaLabel": "Language",
+            "brazilAlt": "Brazil icon",
+            "englishAlt": "United States icon"
+        },
+        "projectCard": {
+            "details": "View details",
+            "accessProject": "Open project",
+            "accessDemo": "Open demo",
+            "sourceCode": "View source code",
+            "technologies": "Technologies",
+            "overview": "About the project",
+            "features": "Main features",
+            "gallery": "Interface and features",
+            "results": "Results",
+            "challenges": "Technical challenges",
+            "learnings": "Learnings",
+            "closeDetails": "Close project details",
+            "usedIn": "Technologies used in"
+        },
+        "education": {
+            "ongoing": "In Progress"
+        },
+        "experience": {
+            "separator": "to"
+        }
     }
 }

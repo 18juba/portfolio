@@ -1,0 +1,387 @@
+[
+	{
+		"id": "acquadata",
+		"title": "AcquaData",
+		"description": "Monitoring and management for shrimp farming farms with IoT telemetry, dashboards and analytical reports",
+		"banner": {
+			"src": "/projects/acquadata/banner.webp",
+			"alt": "AcquaData cover",
+			"width": 1920,
+			"height": 1080
+		},
+		"technologies": [
+            "golang",
+            "postgresql",
+			"docker",
+            "mqtt",
+			"svelte"
+		],
+		"period": "2026",
+		"role": "Fullstack Software Engineer",
+		"links": {
+			"demo": "https://carcinicultura.jctech.dpdns.org",
+			"repository": ""
+		},
+		"more": {
+			"overview": "AcquaData was created to centralize sensor readings, tank management and report generation for shrimp producers. Devices send telemetry through MQTT, while the backend processes and stores the data in PostgreSQL.",
+			"features": [
+				"User registration and authentication with JWT",
+				"Individual management of dug ponds (tanks)",
+				"Telemetry received from ESP32-C6 devices in a Zigbee network via the MQTT messaging protocol",
+				"Real-time visualization of temperature, pH, dissolved solids, turbidity and other metrics",
+				"Generation of printed reports or Excel spreadsheets by tank and time interval",
+				"Full reading history and identification of important changes",
+                "Sending important alerts via WhatsApp"
+			],
+			"images": [
+				{
+					"src": "/projects/acquadata/dashboard.png",
+					"alt": "Dashboard with indicator cards and reading charts for a pond",
+					"description": "Main dashboard used to track the current and historical measurements of each pond",
+					"width": 1280,
+					"height": 720,
+					"features": [
+						"Summary of the latest reading for each pond",
+						"Individual pond selection",
+						"Real-time information about temperature, pH, dissolved solids and turbidity"
+					]
+				},
+				{
+					"src": "/projects/acquadata/whatsapp.png",
+					"alt": "WhatsApp integration menu",
+					"description": "Menu to connect a WhatsApp number and receive important alerts by message",
+					"width": 1280,
+					"height": 720,
+					"features": [
+						"Integrate WhatsApp with the dashboard using a QR code",
+						"Configure minimum and maximum recommended parameters for each metric",
+						"Define rules for alert delivery"
+					]
+				},
+				{
+					"src": "/projects/acquadata/relatorios.png",
+					"alt": "Reports screen with period and metric filters",
+					"description": "Generation of printed reports in PDF, Excel spreadsheets or CSV by pond and time interval",
+					"width": 1280,
+					"height": 720,
+					"features": [
+						"Filter by period.",
+						"Metric selection.",
+						"Comparison between tanks.",
+						"Information export."
+					]
+				},
+				{
+					"src": "/projects/acquadata/tanques.png",
+					"alt": "Tanks screen with a list of registered tanks",
+					"description": "Tank management and definition of measuring devices for each pond",
+					"width": 1280,
+					"height": 720,
+					"features": [
+						"Register and edit tanks",
+						"Define the devices that provide telemetry for each tank"
+					]
+				}
+			],
+			"results": [
+				"A server capable of processing dozens of simultaneous sensor readings in real time",
+				"A server capable of detecting readings outside the expected range and sending alerts via WhatsApp",
+				"A responsive web dashboard with interactive charts for real-time metric visualization",
+                "A reporting system with PDF output and data export to Excel or CSV",
+                "A project ready to evolve into a complete ERP for shrimp farms"
+			],
+			"challenges": [
+				"Preparing the Zigbee network so the device works in open environments with difficult Wi-Fi access",
+                "Ensuring the hardware runs with low power consumption and can be recharged with solar energy",
+                "Creating a provisioning system so the end user can link their device to their account easily",
+                "Ensuring the server can process a large number of simultaneous readings"
+			],
+			"learnings": [
+				"MQTT messaging protocol and IoT device integration",
+				"As my first Go project, I learned a lot about the language and asynchronous processing"
+			]
+		}
+	},
+	{
+		"id": "torcidaspro",
+		"title": "TorcidasPRO",
+		"description": "The ultimate platform for managing members, payments, online store and finances for your supporters' group or club. Everything in one place, without complications.",
+		"banner": {
+			"src": "/projects/torcidaspro/banner.webp",
+			"alt": "TorcidasPRO logo",
+			"width": 1920,
+			"height": 1080
+		},
+		"technologies": [
+            "php",
+            "laravel",
+			"postgresql",
+			"docker",
+			"svelte"
+		],
+		"period": "2025",
+		"role": "Frontend Developer",
+		"links": {
+			"demo": "https://torcidas.pro",
+			"repository": ""
+		},
+		"more": {
+			"overview": "AcquaData was created to centralize sensor readings, tank management and report generation for shrimp producers. Devices send telemetry through MQTT, while the backend processes and stores the data in PostgreSQL.",
+			"features": [
+				"User registration and authentication with JWT",
+				"Individual management of dug ponds (tanks)",
+				"Telemetry received from ESP32-C6 devices in a Zigbee network via the MQTT messaging protocol",
+				"Real-time visualization of temperature, pH, dissolved solids, turbidity and other metrics",
+				"Generation of printed reports or Excel spreadsheets by tank and time interval",
+				"Full reading history and identification of important changes",
+                "Sending important alerts via WhatsApp"
+			],
+			"images": [
+				{
+					"src": "/projects/torcidaspro/dashboard.png",
+					"alt": "Dashboard with financial indicator cards and recent member and payment history",
+					"description": "Main dashboard used to monitor financial indicators and recent member and payment history",
+					"width": 1280,
+					"height": 720,
+					"features": [
+						"Quick summary of financial metrics",
+						"Summary of the latest orders and members"
+					]
+				},
+				{
+					"src": "/projects/torcidaspro/cores.png",
+					"alt": "Settings menu with complete site customization",
+					"description": "Settings menu with complete platform customization and real-time preview",
+					"width": 1280,
+					"height": 720,
+					"features": [
+						"Customize platform colors, images, features and texts",
+						"Real-time preview of changes"
+					]
+				},
+				{
+					"src": "/projects/torcidaspro/financeiro.png",
+					"alt": "Platform financial control panel",
+					"description": "Complete financial control, with order management, supporter plan management, payment gateway accounts and freight integration",
+					"width": 1280,
+					"height": 720,
+					"features": [
+						"Configure payment gateways and bank accounts",
+						"Complete management of revenue and expenses",
+						"Integrate products with freight systems"
+					]
+				},
+				{
+					"src": "/projects/torcidaspro/pedidos.png",
+					"alt": "Platform order control panel",
+					"description": "Management of orders, payments and delivery status",
+					"width": 1280,
+					"height": 720,
+					"features": [
+						"View user orders",
+						"Manage deliveries and freight values"
+					]
+				},
+				{
+					"src": "/projects/torcidaspro/produtos.png",
+					"alt": "Platform product control panel",
+					"description": "Product management with stock, size and weight control",
+					"width": 1280,
+					"height": 720,
+					"features": [
+						"Measure and weigh products to integrate with freight systems",
+						"Manage promotions and inventory"
+					]
+				},
+								{
+					"src": "/projects/torcidaspro/torcedor.png",
+					"alt": "Supporter dashboard",
+					"description": "Supporter dashboard with event check-in, loyalty program and order history",
+					"width": 1280,
+					"height": 720,
+					"features": [
+						"Confirm attendance at events",
+						"Accumulate points and exchange them for rewards",
+						"Subscribe to supporter plans and check orders",
+						"Keep registration data up to date"
+					]
+				}
+			],
+			"results": [
+				"Strengthening supporter groups of Brazil's main clubs",
+				"Several positive customer reviews regarding how easy it is to create the site"
+			],
+			"challenges": [
+				"Ensuring the entire platform is responsive and works on any device",
+				"Creating an interface where any user can create their site from anywhere without technical knowledge",
+				"Managing cache and optimizing settings loading while ensuring real-time changes and low latency for the end user"
+			],
+			"learnings": [
+				"Learned ways to adapt desktop interface design for mobile devices",
+				"Server-side cache management to minimize latency for the end user",
+				"Building interfaces with dynamic and fully customizable colors so any client can apply their visual identity"
+			]
+		}
+	},
+	{
+		"id": "leaofut",
+		"title": "LeãoFut",
+		"description": "Study project for learning web scraping, data extraction, transformation and loading (ETL), and data analysis",
+		"banner": {
+			"src": "/projects/leaofut/banner.webp",
+			"alt": "LeãoFut banner",
+			"width": 1920,
+			"height": 1080
+		},
+		"technologies": [
+            "python",
+			"svelte",
+			"chartjs"
+		],
+		"period": "2026",
+		"role": "Data Engineer",
+		"links": {
+			"demo": "https://leaofut.vercel.app",
+			"repository": ""
+		},
+		"more": {
+			"overview": "",
+			"features": [
+				"Web scraping of the Transfermarkt platform to extract club and athlete data",
+				"Athlete information, transfer history and market value",
+				"Section for squad exploration",
+				"Section for analysis with interactive charts and athlete comparisons"
+			],
+			"images": [
+				{
+					"src": "/projects/acquadata/dashboard.webp",
+					"alt": "Dashboard with indicator cards and charts for a tank's readings",
+					"description": "Main dashboard used to track the current and historical conditions of each tank.",
+					"width": 1280,
+					"height": 720,
+					"features": [
+						"Summary of the latest readings.",
+						"Charts showing metric evolution.",
+						"Individual tank selection.",
+						"Visual identification of out-of-range values."
+					]
+				},
+				{
+					"src": "/projects/acquadata/tanks.webp",
+					"alt": "Page listing the tanks registered in AcquaData",
+					"description": "Tank management area linked to the user's property.",
+					"width": 1280,
+					"height": 720,
+					"features": [
+						"Register and edit tanks.",
+						"View the status of each tank.",
+						"Quick access to reading history."
+					]
+				},
+				{
+					"src": "/projects/acquadata/reports.webp",
+					"alt": "Reports screen with period and metric filters",
+					"description": "Reporting module for analyzing historical production data.",
+					"width": 1280,
+					"height": 720,
+					"features": [
+						"Filter by period.",
+						"Metric selection.",
+						"Comparison between tanks.",
+						"Information export."
+					]
+				}
+			],
+			"results": [
+				"Modern and responsive interface for data exploration",
+				"Integration with web scraping through a REST API"
+			],
+			"challenges": [
+				"Ensuring data loads quickly without running web scraping again for every request",
+				"Generating a JSON ready for interface consumption with a single Python script, ensuring fast loading"
+			],
+			"learnings": [
+				"Web scraping with the Beautiful Soup, Selenium and Requests libraries",
+				"Data visualization using Chart.js charts",
+				"Data extraction, transformation and loading (ETL) with Python"
+			]
+		}
+	},
+	{
+		"id": "cartograficos",
+		"title": "CARtográficos",
+		"description": "Proposed solution for the HaCARthon hackathon focused on improvements to the CAR (Rural Environmental Registry), addressing the challenge of improving the CAR geospatial data",
+		"banner": {
+			"src": "/projects/cartograficos/banner.webp",
+			"alt": "Cartográficos banner",
+			"width": 1920,
+			"height": 1080
+		},
+		"technologies": [
+            "figma"
+		],
+		"period": "2026",
+		"role": "Systems Analyst / UI/UX Designer",
+		"links": {
+			"demo": "",
+			"repository": ""
+		},
+		"more": {
+			"overview": "The hackathon proposed by Enap aims to develop innovative solutions that contribute to strengthening the Rural Environmental Registry System (SICAR). We chose to address the challenge of improving CAR geospatial data and suggested a system for demarcating property via GPS, providing almost 100% accuracy.",
+			"features": [],
+			"images": [
+				{
+					"src": "/projects/acquadata/dashboard.webp",
+					"alt": "Dashboard with indicator cards and charts for a tank's readings",
+					"description": "Main dashboard used to track the current and historical conditions of each tank.",
+					"width": 1280,
+					"height": 720,
+					"features": [
+						"Summary of the latest readings.",
+						"Charts showing metric evolution.",
+						"Individual tank selection.",
+						"Visual identification of out-of-range values."
+					]
+				},
+				{
+					"src": "/projects/acquadata/tanks.webp",
+					"alt": "Page listing the tanks registered in AcquaData",
+					"description": "Tank management area linked to the user's property.",
+					"width": 1280,
+					"height": 720,
+					"features": [
+						"Register and edit tanks.",
+						"View the status of each tank.",
+						"Quick access to reading history."
+					]
+				},
+				{
+					"src": "/projects/acquadata/reports.webp",
+					"alt": "Reports screen with period and metric filters",
+					"description": "Reporting module for analyzing historical production data.",
+					"width": 1280,
+					"height": 720,
+					"features": [
+						"Filter by period.",
+						"Metric selection.",
+						"Comparison between tanks.",
+						"Information export."
+					]
+				}
+			],
+			"results": [
+				"Modern and responsive interface for data exploration",
+				"Integration with web scraping through a REST API"
+			],
+			"challenges": [
+				"Ensuring the data loads quickly without running web scraping again for every request",
+				"Generating a JSON ready for interface consumption with a single Python script, ensuring fast loading"
+			],
+			"learnings": [
+				"Web scraping with the Beautiful Soup, Selenium and Requests libraries",
+				"Data visualization using Chart.js charts",
+				"Data extraction, transformation and loading (ETL) with Python"
+			]
+		}
+	}
+]

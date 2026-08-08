@@ -1,0 +1,57 @@
+[
+    {
+        "name": "Go",
+        "icon": "golang",
+        "description": "Go programming language"
+    },
+    {
+        "name": "Python",
+        "icon": "python",
+        "description": "Python programming language"
+    },
+    {
+        "name": "JavaScript",
+        "icon": "javascript",
+        "description": "JavaScript programming language"
+    },
+    {
+        "name": "TypeScript",
+        "icon": "typescript",
+        "description": "TypeScript programming language"
+    },
+    {
+        "name": "PHP",
+        "icon": "php",
+        "description": "PHP programming language"
+    },
+    {
+        "name": "React",
+        "icon": "react",
+        "description": "JavaScript library for building user interfaces"
+    },
+    {
+        "name": "NextJS",
+        "icon": "nextjs",
+        "description": "React framework for web applications"
+    },
+    {
+        "name": "Svelte",
+        "icon": "svelte",
+        "description": "Svelte framework for web applications"
+    },
+    {
+        "name": "Laravel",
+        "icon": "laravel",
+        "description": "PHP framework for web development"
+    },
+    {
+        "name": "PostgreSQL",
+        "icon": "postgresql",
+        "description": "Relational database management system"
+    },
+    {
+        "name": "Docker",
+        "icon": "docker",
+        "description": "Container virtualization platform"
+    }
+]

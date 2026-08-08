@@ -1,11 +1,6 @@
 <script>
   import { browser } from "$app/environment";
 
-  import technologies from "$lib/data/technology.json";
-  import experiences from "$lib/data/experience.json";
-  import projects from "$lib/data/project.json";
-  import education from "$lib/data/education.json";
-
   import TechnologyBadge from "$lib/components/TechnologyBadge.svelte";
   import Experience from "$lib/components/Experience.svelte";
   import ProjectCard from "$lib/components/ProjectCard.svelte";
@@ -33,7 +28,7 @@
   <header class="flex justify-between items-center mb-4">
     <nav
       class="flex gap-6 font-bold text-slate-50"
-      aria-label={locale === "en" ? "Language" : "Idioma"}
+      aria-label={t.ui.navigation.ariaLabel}
     >
       <a
         href="/"
@@ -44,7 +39,7 @@
       >
         <img
           src="/icons/bra.png"
-          alt="Ícone do Brasil"
+          alt={t.ui.navigation.brazilAlt}
           class="w-10 h-10 object-contain"
         />
       </a>
@@ -57,7 +52,7 @@
       >
         <img
           src="/icons/usa.png"
-          alt="Ícone dos Estados Unidos"
+          alt={t.ui.navigation.englishAlt}
           class="w-10 h-10 object-contain"
         />
       </a>
@@ -158,12 +153,12 @@
         >
           <img
             src="/icons/linkedin.png"
-            alt="Ícone do LinkedIn"
+              alt={t.ui.common.linkedinAlt}
             class="w-7 h-7 object-contain"
           />
-          LinkedIn
+          {t.ui.common.linkedin}
 
-          <span class="sr-only"> , abre em uma nova aba </span>
+          <span class="sr-only">{t.ui.common.newTabSuffix}</span>
         </a>
       </div>
     </div>
@@ -176,7 +171,7 @@
     >
       <img
         src="/images/profile.webp"
-        alt="Foto de Jorge Lucas"
+      alt={t.ui.common.profileAlt}
         width="320"
         height="320"
         class="
@@ -197,7 +192,7 @@
       {t.sections.technology}
     </h2>
     <div class="flex flex-wrap gap-4">
-      {#each technologies as technology}
+      {#each t.technologies as technology}
         <TechnologyBadge {...technology} />
       {/each}
     </div>
@@ -215,8 +210,8 @@
 			xl:grid-cols-3
 		"
     >
-      {#each projects as project (project.id)}
-        <ProjectCard {...project} />
+      {#each t.projects as project (project.id)}
+        <ProjectCard {...project} labels={{ ...t.ui.projectCard, newTabSuffix: t.ui.common.newTabSuffix }} />
       {/each}
     </div>
   </section>
@@ -225,8 +220,8 @@
     <h2 id="experiences-title" class="text-2xl font-bold mb-4">
       {t.sections.experience}
     </h2>
-    {#each experiences as experience}
-      <Experience {...experience} />
+    {#each t.experiences as experience}
+      <Experience {...experience} labels={{ ...t.ui.experience, newTabSuffix: t.ui.common.newTabSuffix }} />
     {/each}
   </section>
 
@@ -236,8 +231,8 @@
     </h2>
 
     <div class="flex flex-col gap-4">
-      {#each education as education}
-        <Education {...education} />
+      {#each t.educationItems as education}
+        <Education {...education} labels={t.ui.education} />
       {/each}
     </div>
   </section>

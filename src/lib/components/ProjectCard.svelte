@@ -12,6 +12,7 @@
     role,
     links,
     more,
+    labels,
   } = $props();
 
   let dialog;
@@ -151,7 +152,7 @@
 
     {#if technologies.length > 0}
       <ul
-        aria-label={`Tecnologias utilizadas em ${title}`}
+        aria-label={`${labels?.usedIn ?? "Tecnologias utilizadas em"} ${title}`}
         class="mt-5 flex list-none flex-wrap gap-2 p-0"
       >
         {#each technologies as technology}
@@ -194,7 +195,7 @@
 					cursor-pointer
 				"
       >
-        Ver detalhes
+        {labels?.details ?? "Ver detalhes"}
       </button>
       {#if links?.demo}
         <a
@@ -208,8 +209,8 @@
 						hover:text-sky-300 hover:underline
 					"
         >
-          Acessar projeto
-          <span class="sr-only">, abre em uma nova aba</span>
+          {labels?.accessProject ?? "Acessar projeto"}
+          <span class="sr-only">{labels?.newTabSuffix ?? ", abre em uma nova aba"}</span>
         </a>
       {/if}
     </footer>
@@ -259,10 +260,10 @@
         data-close-button
         type="button"
         onclick={closeModal}
-        aria-label={`Fechar detalhes do projeto ${title}`}
+        aria-label={`${labels?.closeDetails ?? "Fechar detalhes do projeto"} ${title}`}
 		class="cursor-pointer select-none"
       >
-		<img aria-hidden="true" src="/icons/close.png" alt="Botão de fechar" class="w-10 h-10"/>
+		<img aria-hidden="true" src="/icons/close.png" alt="" class="w-10 h-10"/>
       </button>
     </header>
 
@@ -300,8 +301,8 @@
 							focus-visible:ring-sky-400
 						"
           >
-            Acessar demonstração
-            <span class="sr-only">, abre em uma nova aba</span>
+            {labels?.accessDemo ?? "Acessar demonstração"}
+            <span class="sr-only">{labels?.newTabSuffix ?? ", abre em uma nova aba"}</span>
           </a>
         {/if}
 
@@ -321,8 +322,8 @@
 							focus-visible:ring-sky-400
 						"
           >
-            Ver código-fonte
-            <span class="sr-only">, abre em uma nova aba</span>
+            {labels?.sourceCode ?? "Ver código-fonte"}
+            <span class="sr-only">{labels?.newTabSuffix ?? ", abre em uma nova aba"}</span>
           </a>
         {/if}
       </div>
@@ -330,7 +331,7 @@
       {#if technologies.length > 0}
         <section aria-labelledby={`technologies-${id}`}>
           <h3 id={`technologies-${id}`} class="text-xl font-bold">
-            Tecnologias
+            {labels?.technologies ?? "Tecnologias"}
           </h3>
 
           <ul class="mt-4 flex list-none flex-wrap gap-2 p-0">
@@ -361,7 +362,7 @@
       {#if more?.overview}
         <section aria-labelledby={`overview-${id}`}>
           <h3 id={`overview-${id}`} class="text-xl font-bold">
-            Sobre o projeto
+            {labels?.overview ?? "Sobre o projeto"}
           </h3>
 
           <p class="mt-3 max-w-4xl leading-relaxed text-neutral-300">
@@ -373,7 +374,7 @@
       {#if more?.features?.length}
         <section aria-labelledby={`features-${id}`}>
           <h3 id={`features-${id}`} class="text-xl font-bold">
-            Principais funcionalidades
+            {labels?.features ?? "Principais funcionalidades"}
           </h3>
 
           <ul
@@ -400,7 +401,7 @@
       {#if more?.images?.length}
         <section aria-labelledby={`gallery-${id}`}>
           <h3 id={`gallery-${id}`} class="text-xl font-bold">
-            Interface e funcionalidades
+            {labels?.gallery ?? "Interface e funcionalidades"}
           </h3>
 
           <div class="mt-5 space-y-8">
@@ -460,7 +461,7 @@
 
       {#if more?.results?.length}
         <section aria-labelledby={`results-${id}`}>
-          <h3 id={`results-${id}`} class="text-xl font-bold">Resultados</h3>
+          <h3 id={`results-${id}`} class="text-xl font-bold">{labels?.results ?? "Resultados"}</h3>
 
           <ul class="mt-4 list-disc space-y-2 pl-5 text-neutral-300">
             {#each more.results as result}
@@ -473,7 +474,7 @@
       {#if more?.challenges?.length}
         <section aria-labelledby={`challenges-${id}`}>
           <h3 id={`challenges-${id}`} class="text-xl font-bold">
-            Desafios técnicos
+            {labels?.challenges ?? "Desafios técnicos"}
           </h3>
 
           <ul class="mt-4 list-disc space-y-2 pl-5 text-neutral-300">
@@ -486,7 +487,7 @@
 
       {#if more?.learnings?.length}
         <section aria-labelledby={`learnings-${id}`}>
-          <h3 id={`learnings-${id}`} class="text-xl font-bold">Aprendizados</h3>
+          <h3 id={`learnings-${id}`} class="text-xl font-bold">{labels?.learnings ?? "Aprendizados"}</h3>
 
           <ul class="mt-4 list-disc space-y-2 pl-5 text-neutral-300">
             {#each more.learnings as learning}

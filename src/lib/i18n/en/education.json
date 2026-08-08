@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Bachelor's Degree in Computer Engineering",
+        "institution": "Federal Institute of Education, Science and Technology of Ceará (IFCE)",
+        "period": "01/2024 - Present",
+        "ongoing": true
+    },
+    {
+        "title": "Technical Degree in Computer Networks",
+        "institution": "EEEP Paulo VI",
+        "period": "01/2021 - 12/2023",
+        "ongoing": false
+    }
+]

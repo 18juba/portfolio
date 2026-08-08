@@ -1,5 +1,5 @@
 <script>
-  let { title, company, companyUrl, startDate, endDate, startPeriod, endPeriod, tasks } =
+  let { title, company, companyUrl, startDate, endDate, startPeriod, endPeriod, tasks, labels } =
     $props();
 </script>
 
@@ -38,7 +38,7 @@
 					"
 				>
 					{company}
-					<span class="sr-only">, abre em uma nova aba</span>
+					<span class="sr-only">{labels?.newTabSuffix ?? ", abre em uma nova aba"}</span>
 				</a>
 			{:else}
 				<span class="font-semibold text-neutral-200">
@@ -49,7 +49,7 @@
 			<span aria-hidden="true" class="text-neutral-600">•</span>
 
 			<p>
-				<time datetime={startDate}>{startPeriod}</time> a <time datetime={endDate}>{endPeriod}</time>
+				<time datetime={startDate}>{startPeriod}</time> {labels?.separator ?? "a"} <time datetime={endDate}>{endPeriod}</time>
 			</p>
 		</div>
 	</header>

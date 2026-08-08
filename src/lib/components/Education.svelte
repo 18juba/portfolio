@@ -4,6 +4,7 @@
 		institution,
 		ongoing,
         period,
+        labels,
 	} = $props();
 </script>
 
@@ -39,7 +40,7 @@
 					text-sm text-neutral-300
 				"
 			>
-				Em Andamento
+				{labels?.ongoing ?? "Em Andamento"}
 			</span>
 		{/if}
 	</header>
