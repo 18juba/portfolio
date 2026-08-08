@@ -1,0 +1,23 @@
+{
+	"meta": {
+		"title": "Jorge Lucas - Computer Engineering",
+		"description": "Software development, data science and IoT"
+	},
+
+	"hero": {
+		"greeting": "Hi, I'm",
+		"title": "Computer Engineering Student",
+		"about": "I'm a Computer Engineering student, focused on software development and data science",
+        "location": "Brazil",
+        "available": "Available for internships, trainee and remote opportunities",
+        "resume": "Download Resume",
+        "resume_url": "/Resume.pdf"
+	},
+
+    "sections": {
+        "technology": "Main Technologies",
+        "projects": "Authorial or Academic Projects",
+        "experience": "Professional Experiences",
+        "education": "Academic Formation"
+    }
+}

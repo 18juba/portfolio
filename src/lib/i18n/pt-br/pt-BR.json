@@ -1,0 +1,23 @@
+{
+	"meta": {
+		"title": "Jorge Lucas - Engenheiro de Computação",
+		"description": "Desenvolvimento de software, ciência de dados e IoT"
+	},
+
+	"hero": {
+		"greeting": "Olá, eu sou",
+		"title": "Estudante de Engenharia da Computação",
+		"about": "Sou estudante de Engenharia da Computação, com foco em desenvolvimento de software e ciência de dados",
+        "location": "Fortaleza, Ceará",
+        "available": "Disponível para estágio, trainee e oportunidades remotas",
+        "resume": "Baixar Currículo",
+        "resume_url": "/Curriculo_Jorge_Lucas_Engenharia.pdf"
+	},
+
+    "sections": {
+        "technology": "Principais Tecnologias",
+        "projects": "Projetos Autorais ou Acadêmicos",
+        "experience": "Experiências Profissionais",
+        "education": "Formação Acadêmica"
+    }
+}

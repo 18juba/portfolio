@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Bacharelado em Engenharia da Computação",
+        "institution": "Instituto Federal de Educação, Ciência e Tecnologia do Ceará (IFCE)",
+        "period": "01/2024 - Presente",
+        "ongoing": true
+    },
+    {
+        "title": "Técnico em Redes de Computadores",
+        "institution": "EEEP Paulo VI",
+        "period": "01/2021 - 12/2023",
+        "ongoing": false
+    }
+]
