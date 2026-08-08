@@ -170,7 +170,7 @@
 		"
     >
       <img
-        src="/images/profile.webp"
+        src="https://hqscomcafe.com.br/wp-content/uploads/2023/12/Zeca-urubu.webp"
       alt={t.ui.common.profileAlt}
         width="320"
         height="320"

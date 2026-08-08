@@ -224,6 +224,65 @@
 		}
 	},
 	{
+		"id": "retaguarda",
+		"title": "Retaguarda",
+		"description": "Web-based ERP system with electronic invoice issuance, movement control, financial management, inventory, printed reports, integration with Zebra printers and sales with integrated POS",
+		"banner": {
+			"src": "/projects/retaguarda/banner.jpg",
+			"alt": "Banner do Retaguarda",
+			"width": 1920,
+			"height": 1080
+		},
+		"technologies": [
+			"php",
+			"laravel",
+			"mysql",
+			"redis",
+			"react"
+		],
+		"period": "2024",
+		"role": "Backend Developer",
+		"links": {
+			"demo": "",
+			"repository": ""
+		},
+		"more": {
+			"overview": "Retaguarda is the web version of a complete web-based ERP system, with electronic invoice issuance, movement control, financial management, inventory, printed reports, integration with Zebra printers and sales with integrated POS. This was my first major project as an intern at Qualisoft Informática and provided me with a great opportunity for learning and growth in a short period of time",
+			"features": [
+				"Electronic invoice issuance",
+				"Control of product entries and exits",
+				"Inventory counting",
+				"Management of accounts payable and accounts receivable",
+				"Generation of printed reports",
+				"Integration with Zebra printers for label printing",
+				"Sales facilitated with integrated POS for desktop and mobile",
+				"Management of suppliers, customers and employees",
+				"Permission system for different levels of access and roles",
+				"Responsive and modern web interface"
+			],
+			"images": [],
+			"results": [
+				"Complete Web-based ERP system for commercial management"
+			],
+			"challenges": [
+				"Ensure consistency in queries to the multi-tenant database",
+				"Optimize read operations using Redis for caching frequent queries",
+				"Implement integration with the Tax Authority for electronic invoice issuance",
+				"Integrate with Zebra printers via the ZPL protocol for label printing"
+			],
+			"learnings": [
+				"Development of RESTful API",
+				"Cache-Aside model with Redis",
+				"Multi-tenant database architecture for multiple clients",
+				"Configuration of IPs, domains and SSL certificates using Homehost and Registro.br",
+				"Deployment of system in a Linux environment using a virtual machine with Apache on AWS (Amazon EC2)",
+				"Communication with cloud database using Amazon RDS",
+				"Integration with Zebra printers via the ZPL protocol",
+				"Integration with the Tax Authority for electronic invoice issuance"
+			]
+		}
+	},
+	{
 		"id": "leaofut",
 		"title": "LeãoFut",
 		"description": "Study project for learning web scraping, data extraction, transformation and loading (ETL), and data analysis",
@@ -252,46 +311,7 @@
 				"Section for squad exploration",
 				"Section for analysis with interactive charts and athlete comparisons"
 			],
-			"images": [
-				{
-					"src": "/projects/acquadata/dashboard.webp",
-					"alt": "Dashboard with indicator cards and charts for a tank's readings",
-					"description": "Main dashboard used to track the current and historical conditions of each tank.",
-					"width": 1280,
-					"height": 720,
-					"features": [
-						"Summary of the latest readings.",
-						"Charts showing metric evolution.",
-						"Individual tank selection.",
-						"Visual identification of out-of-range values."
-					]
-				},
-				{
-					"src": "/projects/acquadata/tanks.webp",
-					"alt": "Page listing the tanks registered in AcquaData",
-					"description": "Tank management area linked to the user's property.",
-					"width": 1280,
-					"height": 720,
-					"features": [
-						"Register and edit tanks.",
-						"View the status of each tank.",
-						"Quick access to reading history."
-					]
-				},
-				{
-					"src": "/projects/acquadata/reports.webp",
-					"alt": "Reports screen with period and metric filters",
-					"description": "Reporting module for analyzing historical production data.",
-					"width": 1280,
-					"height": 720,
-					"features": [
-						"Filter by period.",
-						"Metric selection.",
-						"Comparison between tanks.",
-						"Information export."
-					]
-				}
-			],
+			"images": [],
 			"results": [
 				"Modern and responsive interface for data exploration",
 				"Integration with web scraping through a REST API"
@@ -329,59 +349,10 @@
 		"more": {
 			"overview": "The hackathon proposed by Enap aims to develop innovative solutions that contribute to strengthening the Rural Environmental Registry System (SICAR). We chose to address the challenge of improving CAR geospatial data and suggested a system for demarcating property via GPS, providing almost 100% accuracy.",
 			"features": [],
-			"images": [
-				{
-					"src": "/projects/acquadata/dashboard.webp",
-					"alt": "Dashboard with indicator cards and charts for a tank's readings",
-					"description": "Main dashboard used to track the current and historical conditions of each tank.",
-					"width": 1280,
-					"height": 720,
-					"features": [
-						"Summary of the latest readings.",
-						"Charts showing metric evolution.",
-						"Individual tank selection.",
-						"Visual identification of out-of-range values."
-					]
-				},
-				{
-					"src": "/projects/acquadata/tanks.webp",
-					"alt": "Page listing the tanks registered in AcquaData",
-					"description": "Tank management area linked to the user's property.",
-					"width": 1280,
-					"height": 720,
-					"features": [
-						"Register and edit tanks.",
-						"View the status of each tank.",
-						"Quick access to reading history."
-					]
-				},
-				{
-					"src": "/projects/acquadata/reports.webp",
-					"alt": "Reports screen with period and metric filters",
-					"description": "Reporting module for analyzing historical production data.",
-					"width": 1280,
-					"height": 720,
-					"features": [
-						"Filter by period.",
-						"Metric selection.",
-						"Comparison between tanks.",
-						"Information export."
-					]
-				}
-			],
-			"results": [
-				"Modern and responsive interface for data exploration",
-				"Integration with web scraping through a REST API"
-			],
-			"challenges": [
-				"Ensuring the data loads quickly without running web scraping again for every request",
-				"Generating a JSON ready for interface consumption with a single Python script, ensuring fast loading"
-			],
-			"learnings": [
-				"Web scraping with the Beautiful Soup, Selenium and Requests libraries",
-				"Data visualization using Chart.js charts",
-				"Data extraction, transformation and loading (ETL) with Python"
-			]
+			"images": [],
+			"results": [],
+			"challenges": [],
+			"learnings": []
 		}
 	}
 ]

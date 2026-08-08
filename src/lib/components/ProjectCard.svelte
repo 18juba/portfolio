@@ -36,10 +36,13 @@
     typescript: "TypeScript",
     javascript: "JavaScript",
     tailwind: "Tailwind CSS",
-	nextjs: "Next.js",
-	php: "PHP",
-	chartjs: "Chart.js",
-	figma: "Figma",
+    nextjs: "Next.js",
+    php: "PHP",
+    chartjs: "Chart.js",
+    figma: "Figma",
+    mysql: "MySQL",
+    react: "React",
+    redis: "Redis"
   };
 
   function getTechnologyLabel(technology) {
@@ -210,7 +213,9 @@
 					"
         >
           {labels?.accessProject ?? "Acessar projeto"}
-          <span class="sr-only">{labels?.newTabSuffix ?? ", abre em uma nova aba"}</span>
+          <span class="sr-only"
+            >{labels?.newTabSuffix ?? ", abre em uma nova aba"}</span
+          >
         </a>
       {/if}
     </footer>
@@ -261,9 +266,14 @@
         type="button"
         onclick={closeModal}
         aria-label={`${labels?.closeDetails ?? "Fechar detalhes do projeto"} ${title}`}
-		class="cursor-pointer select-none"
+        class="cursor-pointer select-none"
       >
-		<img aria-hidden="true" src="/icons/close.png" alt="" class="w-10 h-10"/>
+        <img
+          aria-hidden="true"
+          src="/icons/close.png"
+          alt=""
+          class="w-10 h-10 object-contain"
+        />
       </button>
     </header>
 
@@ -302,7 +312,9 @@
 						"
           >
             {labels?.accessDemo ?? "Acessar demonstração"}
-            <span class="sr-only">{labels?.newTabSuffix ?? ", abre em uma nova aba"}</span>
+            <span class="sr-only"
+              >{labels?.newTabSuffix ?? ", abre em uma nova aba"}</span
+            >
           </a>
         {/if}
 
@@ -323,7 +335,9 @@
 						"
           >
             {labels?.sourceCode ?? "Ver código-fonte"}
-            <span class="sr-only">{labels?.newTabSuffix ?? ", abre em uma nova aba"}</span>
+            <span class="sr-only"
+              >{labels?.newTabSuffix ?? ", abre em uma nova aba"}</span
+            >
           </a>
         {/if}
       </div>
@@ -461,7 +475,9 @@
 
       {#if more?.results?.length}
         <section aria-labelledby={`results-${id}`}>
-          <h3 id={`results-${id}`} class="text-xl font-bold">{labels?.results ?? "Resultados"}</h3>
+          <h3 id={`results-${id}`} class="text-xl font-bold">
+            {labels?.results ?? "Resultados"}
+          </h3>
 
           <ul class="mt-4 list-disc space-y-2 pl-5 text-neutral-300">
             {#each more.results as result}
@@ -487,7 +503,9 @@
 
       {#if more?.learnings?.length}
         <section aria-labelledby={`learnings-${id}`}>
-          <h3 id={`learnings-${id}`} class="text-xl font-bold">{labels?.learnings ?? "Aprendizados"}</h3>
+          <h3 id={`learnings-${id}`} class="text-xl font-bold">
+            {labels?.learnings ?? "Aprendizados"}
+          </h3>
 
           <ul class="mt-4 list-disc space-y-2 pl-5 text-neutral-300">
             {#each more.learnings as learning}

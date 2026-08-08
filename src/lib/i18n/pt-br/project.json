@@ -224,11 +224,115 @@
 		}
 	},
 	{
+		"id": "retaguarda",
+		"title": "Retaguarda",
+		"description": "Sistema ERP web com emissão de notas fiscais eletrônicas, controle de movimentação, financeiro, inventário, relatórios impressos, integração com impressora Zebra e vendas com PDV integrado",
+		"banner": {
+			"src": "/projects/retaguarda/banner2.png",
+			"alt": "Banner do Retaguarda",
+			"width": 1920,
+			"height": 1080
+		},
+		"technologies": [
+			"php",
+			"laravel",
+			"mysql",
+			"redis",
+			"react"
+		],
+		"period": "2024",
+		"role": "Desenvolvedor Backend",
+		"links": {
+			"demo": "",
+			"repository": ""
+		},
+		"more": {
+			"overview": "O Retaguarda é a versão web de um sistema ERP web completo, com emissão de notas fiscais eletrônicas, controle de movimentação, financeiro, inventário, relatórios impressos, integração com impressora Zebra e vendas com PDV integrado. Este foi o meu primeiro grande projeto como estagiário da Qualisoft Informática e me proporcionou uma grande oportunidade de aprendizado e evolução em um curto período de tempo",
+			"features": [
+				"Emissão de notas fiscais eletrônicas",
+				"Controle de entradas e saídas de produtos",
+				"Contagem de inventário",
+				"Gestão de contas a pagar e contas a receber",
+				"Geração de relatórios impressos",
+				"Integração com impressora Zebra para impressão de etiquetas",
+				"Vendas facilitadas com PDV integrado para desktop e mobile",
+				"Gerenciamento de fornecedores, clientes e funcionários",
+				"Sistema de permissões para diferentes níveis de acesso e funções",
+				"Interface web responsiva e moderna"
+			],
+			"images": [],
+			"results": [
+				"Sistema ERP web completo para gestão comercial"
+			],
+			"challenges": [
+				"Garantir consistência nas consultas ao banco de dados multi-tenant",
+				"Otimizar operações de leitura utilizando Redis para cache de consultas frequentes",
+				"Implementar integração com a Secretaria da Fazenda para emissão de notas fiscais eletrônicas",
+				"Integrar com impressoras Zebra via protocolo ZPL para impressão de etiquetas"
+			],
+			"learnings": [
+				"Desenvolvimento de API RESTful",
+				"Modelo Cache-Aside com Redis",
+				"Arquitetura de banco de dados multi-tenant para multiplos clientes",
+				"Configuração de IPs, domínios e certificados SSL utilizando Homehost e Registro.br",
+				"Implantação de sistema em ambiente linux usando maquina virtual com Apache na AWS (Amazon EC2)",
+				"Comunicação com banco de dados em nuvem usando Amazon RDS",
+				"Integração com impressoras Zebra via protocolo ZPL",
+				"Integração com a Secretaria da Fazenda para emissão de notas fiscais eletrônicas"
+			]
+		}
+	},
+	{
+		"id": "vitrine",
+		"title": "Vitrine Virtual",
+		"description": "Sistema de vitrine para exibição simples de produtos e serviços, integrado com WhatsApp para contato direto com o vendedor e com cálculo de frete automático",
+		"banner": {
+			"src": "/projects/vitrine/banner.png",
+			"alt": "Banner do Vitrine Virtual",
+			"width": 1920,
+			"height": 1080
+		},
+		"links": {
+			"demo": "",
+			"repository": ""
+		},
+		"technologies": [
+			"php",
+			"laravel",
+			"mysql",
+			"redis",
+			"nextjs"
+		],
+		"period": "2025",
+		"role": "Desenvolvedor Backend",
+		"more": {
+			"overview": "O Vitrine Virtual é um sistema de vitrine para exibição simples de produtos e serviços, integrado com WhatsApp para contato direto com o vendedor e com cálculo de frete automático. Este projeto foi desenvolvido como parte do meu estágio na Qualisoft Informática, onde pude aplicar meus conhecimentos em desenvolvimento web e integração de sistemas.",
+			"features": [
+				"Exibição de produtos e serviços em uma vitrine virtual",
+				"Integração com WhatsApp para contato direto com o vendedor",
+				"Cálculo automático de frete baseado no CEP do cliente",
+				"Interface web responsiva e moderna"
+			],
+			"images": [],
+			"results": [
+				"Sistema de vitrine virtual funcional e fácil de usar"
+			],
+			"challenges": [
+				"Garantir que a integração com o WhatsApp funcione corretamente para todos os usuários",
+				"Otimizar o cálculo de frete para diferentes regiões e transportadoras"
+			],
+			"learnings": [
+				"Desenvolvimento de sistemas web integrados",
+				"Trabalhar com APIs externas para integração com serviços de terceiros"
+			]
+		}
+	},
+	{
 		"id": "leaofut",
 		"title": "LeãoFut",
 		"description": "Projeto de estudos para aprendizado de web scraping, processo de extração, transformação e carregamento de dados (ETL) e análise de dados",
 		"banner": {
-			"src": "/projects/leaofut/banner.webp",
+			"src": "/projects/leaofut/banner.png",
 			"alt": "Banner do LeãoFut",
 			"width": 1920,
 			"height": 1080
@@ -252,46 +356,7 @@
 				"Seção para exploração do elenco",
 				"Seção de análises com gráficos interativos e comparações entre atletas"
 			],
-			"images": [
-				{
-					"src": "/projects/acquadata/dashboard.webp",
-					"alt": "Dashboard com cartões de indicadores e gráficos das leituras de um tanque",
-					"description": "Dashboard principal utilizado para acompanhar as condições atuais e históricas de cada tanque.",
-					"width": 1280,
-					"height": 720,
-					"features": [
-						"Resumo das leituras mais recentes.",
-						"Gráficos com evolução das métricas.",
-						"Seleção individual de tanques.",
-						"Identificação visual de valores fora do esperado."
-					]
-				},
-				{
-					"src": "/projects/acquadata/tanks.webp",
-					"alt": "Página com a listagem dos tanques cadastrados no AcquaData",
-					"description": "Área de gerenciamento dos tanques vinculados à propriedade do usuário.",
-					"width": 1280,
-					"height": 720,
-					"features": [
-						"Cadastro e edição de tanques.",
-						"Visualização do estado de cada tanque.",
-						"Acesso rápido ao histórico de leituras."
-					]
-				},
-				{
-					"src": "/projects/acquadata/reports.webp",
-					"alt": "Tela de relatórios com filtros de período e métricas",
-					"description": "Módulo de relatórios para análise de dados históricos da produção.",
-					"width": 1280,
-					"height": 720,
-					"features": [
-						"Filtragem por período.",
-						"Seleção de métricas.",
-						"Comparação entre tanques.",
-						"Exportação de informações."
-					]
-				}
-			],
+			"images": [],
 			"results": [
 				"Interface moderna e responsiva para exploração de dados",
 				"Integração com web scraping via API REST"
@@ -329,59 +394,10 @@
 		"more": {
 			"overview": "O hackaton proposto pela Enap tem como finalidade o desenvolvimento de soluções inovadoras que contribuam para para o fortalecimento do Sistema do Cadastro Ambiental Rural (SICAR), escolhemos seguir com o desafio de melhorar os dados geoespaciais do CAR e sugerimos um sistema para realizar demarcação de imóvel via GPS, fornecendo quase 100% de precisão",
 			"features": [],
-			"images": [
-				{
-					"src": "/projects/acquadata/dashboard.webp",
-					"alt": "Dashboard com cartões de indicadores e gráficos das leituras de um tanque",
-					"description": "Dashboard principal utilizado para acompanhar as condições atuais e históricas de cada tanque.",
-					"width": 1280,
-					"height": 720,
-					"features": [
-						"Resumo das leituras mais recentes.",
-						"Gráficos com evolução das métricas.",
-						"Seleção individual de tanques.",
-						"Identificação visual de valores fora do esperado."
-					]
-				},
-				{
-					"src": "/projects/acquadata/tanks.webp",
-					"alt": "Página com a listagem dos tanques cadastrados no AcquaData",
-					"description": "Área de gerenciamento dos tanques vinculados à propriedade do usuário.",
-					"width": 1280,
-					"height": 720,
-					"features": [
-						"Cadastro e edição de tanques.",
-						"Visualização do estado de cada tanque.",
-						"Acesso rápido ao histórico de leituras."
-					]
-				},
-				{
-					"src": "/projects/acquadata/reports.webp",
-					"alt": "Tela de relatórios com filtros de período e métricas",
-					"description": "Módulo de relatórios para análise de dados históricos da produção.",
-					"width": 1280,
-					"height": 720,
-					"features": [
-						"Filtragem por período.",
-						"Seleção de métricas.",
-						"Comparação entre tanques.",
-						"Exportação de informações."
-					]
-				}
-			],
-			"results": [
-				"Interface moderna e responsiva para exploração de dados",
-				"Integração com web scraping via API REST"
-			],
-			"challenges": [
-				"Garantir que os dados carreguem rapidamente sem realizar web scraping novamente para cada requisição",
-				"Gerar um JSON pronto para consumo da interface com um único script em Python, garantindo carregamento rápido"
-			],
-			"learnings": [
-				"Web scraping com as bibliotecas Beautiful Soup, Selenium e Requests",
-				"Visualização de dados usando gráficos da biblioteca Chart.js",
-				"Processo de extração, transformação e carregamento de dados (ETL) com Python"
-			]
+			"images": [],
+			"results": [],
+			"challenges": [],
+			"learnings": []
 		}
 	}
 ]
