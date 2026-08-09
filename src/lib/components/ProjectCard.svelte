@@ -42,7 +42,7 @@
     figma: "Figma",
     mysql: "MySQL",
     react: "React",
-    redis: "Redis"
+    redis: "Redis",
   };
 
   function getTechnologyLabel(technology) {
@@ -251,15 +251,9 @@
 				sm:p-6
 			"
     >
-      <div>
-        <h2 id={dialogTitleId} class="text-2xl font-bold text-neutral-100">
-          {title}
-        </h2>
-
-        <p id={dialogDescriptionId} class="mt-1 text-neutral-400">
-          {description}
-        </p>
-      </div>
+      <h2 id={dialogTitleId} class="text-2xl font-bold text-neutral-100">
+        {title}
+      </h2>
 
       <button
         data-close-button
@@ -342,6 +336,18 @@
         {/if}
       </div>
 
+      {#if more?.overview}
+        <section aria-labelledby={`overview-${id}`}>
+          <h3 id={`overview-${id}`} class="text-xl font-bold">
+            {labels?.overview ?? "Sobre o projeto"}
+          </h3>
+
+          <p class="mt-3 max-w-4xl leading-relaxed text-neutral-300">
+            {more.overview}
+          </p>
+        </section>
+      {/if}
+
       {#if technologies.length > 0}
         <section aria-labelledby={`technologies-${id}`}>
           <h3 id={`technologies-${id}`} class="text-xl font-bold">
@@ -370,18 +376,6 @@
               </li>
             {/each}
           </ul>
-        </section>
-      {/if}
-
-      {#if more?.overview}
-        <section aria-labelledby={`overview-${id}`}>
-          <h3 id={`overview-${id}`} class="text-xl font-bold">
-            {labels?.overview ?? "Sobre o projeto"}
-          </h3>
-
-          <p class="mt-3 max-w-4xl leading-relaxed text-neutral-300">
-            {more.overview}
-          </p>
         </section>
       {/if}
 

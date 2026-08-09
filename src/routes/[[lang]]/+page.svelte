@@ -163,7 +163,7 @@
       </div>
     </div>
 
-    <figure
+    <!-- <figure
       class="
 			mx-auto shrink-0
 			lg:mx-0
@@ -184,7 +184,7 @@
 				lg:size-72
 			"
       />
-    </figure>
+    </figure> -->
   </section>
 
   <section class="mb-12" aria-labelledby="technologies-title">

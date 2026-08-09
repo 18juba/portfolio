@@ -1,5 +1,64 @@
 [
 	{
+		"id": "retaguarda",
+		"title": "Retaguarda",
+		"description": "Web-based ERP system with electronic invoice issuance, movement control, financial management, inventory, printed reports, integration with Zebra printers and sales with integrated POS",
+		"banner": {
+			"src": "/projects/retaguarda/banner2.png",
+			"alt": "Banner do Retaguarda",
+			"width": 1920,
+			"height": 1080
+		},
+		"technologies": [
+			"php",
+			"laravel",
+			"mysql",
+			"redis",
+			"react"
+		],
+		"period": "2024 - 2025",
+		"role": "Backend Developer",
+		"links": {
+			"demo": "",
+			"repository": ""
+		},
+		"more": {
+			"overview": "Retaguarda is the web version of a complete web-based ERP system, with electronic invoice issuance, movement control, financial management, inventory, printed reports, integration with Zebra printers and sales with integrated POS. This was my first major project as an intern at Qualisoft Informática and provided me with a great opportunity for learning and growth in a short period of time",
+			"features": [
+				"Electronic invoice issuance",
+				"Control of product entries and exits",
+				"Inventory counting",
+				"Management of accounts payable and accounts receivable",
+				"Generation of printed reports",
+				"Integration with Zebra printers for label printing",
+				"Sales facilitated with integrated POS for desktop and mobile",
+				"Management of suppliers, customers and employees",
+				"Permission system for different levels of access and roles",
+				"Responsive and modern web interface"
+			],
+			"images": [],
+			"results": [
+				"Complete Web-based ERP system for commercial management"
+			],
+			"challenges": [
+				"Ensure consistency in queries to the multi-tenant database",
+				"Optimize read operations using Redis for caching frequent queries",
+				"Implement integration with the Tax Authority for electronic invoice issuance",
+				"Integrate with Zebra printers via the ZPL protocol for label printing"
+			],
+			"learnings": [
+				"Development of RESTful API",
+				"Cache-Aside model with Redis",
+				"Multi-tenant database architecture for multiple clients",
+				"Configuration of IPs, domains and SSL certificates using Homehost and Registro.br",
+				"Deployment of system in a Linux environment using a virtual machine with Apache on AWS (Amazon EC2)",
+				"Communication with cloud database using Amazon RDS",
+				"Integration with Zebra printers via the ZPL protocol",
+				"Integration with the Tax Authority for electronic invoice issuance"
+			]
+		}
+	},
+	{
 		"id": "acquadata",
 		"title": "AcquaData",
 		"description": "Monitoring and management for shrimp farming farms with IoT telemetry, dashboards and analytical reports",
@@ -126,7 +185,7 @@
 			"repository": ""
 		},
 		"more": {
-			"overview": "AcquaData was created to centralize sensor readings, tank management and report generation for shrimp producers. Devices send telemetry through MQTT, while the backend processes and stores the data in PostgreSQL.",
+			"overview": "TorcidasPRO was created to modernize and facilitate the management of local supporters' groups in the capital of Ceará, and has expanded to serve large supporters' groups of the biggest clubs in Brazil.",
 			"features": [
 				"User registration and authentication with JWT",
 				"Individual management of dug ponds (tanks)",
@@ -224,12 +283,12 @@
 		}
 	},
 	{
-		"id": "retaguarda",
-		"title": "Retaguarda",
-		"description": "Web-based ERP system with electronic invoice issuance, movement control, financial management, inventory, printed reports, integration with Zebra printers and sales with integrated POS",
+		"id": "vitrine",
+		"title": "Vitrine Virtual",
+		"description": "Simple e-commerce system for displaying products and services, integrated with WhatsApp for direct contact with the seller and automatic shipping cost calculation",
 		"banner": {
-			"src": "/projects/retaguarda/banner.jpg",
-			"alt": "Banner do Retaguarda",
+			"src": "/projects/vitrine/banner.png",
+			"alt": "Vitrine Virtual banner",
 			"width": 1920,
 			"height": 1080
 		},
@@ -240,45 +299,32 @@
 			"redis",
 			"react"
 		],
-		"period": "2024",
+		"period": "2025",
 		"role": "Backend Developer",
 		"links": {
 			"demo": "",
 			"repository": ""
 		},
 		"more": {
-			"overview": "Retaguarda is the web version of a complete web-based ERP system, with electronic invoice issuance, movement control, financial management, inventory, printed reports, integration with Zebra printers and sales with integrated POS. This was my first major project as an intern at Qualisoft Informática and provided me with a great opportunity for learning and growth in a short period of time",
+			"overview": "Vitrine Virtual is a showcase system for simple display of products and services, integrated with WhatsApp for direct contact with the seller and automatic shipping cost calculation. This project was developed as part of my internship at Qualisoft Informática, where I was able to apply my knowledge in web development and system integration.",
 			"features": [
-				"Electronic invoice issuance",
-				"Control of product entries and exits",
-				"Inventory counting",
-				"Management of accounts payable and accounts receivable",
-				"Generation of printed reports",
-				"Integration with Zebra printers for label printing",
-				"Sales facilitated with integrated POS for desktop and mobile",
-				"Management of suppliers, customers and employees",
-				"Permission system for different levels of access and roles",
-				"Responsive and modern web interface"
+				"Display of products and services in a fully customized page",
+				"Integration with WhatsApp for direct contact with the seller",
+				"Automatic shipping cost calculation based on postal code, distance or delivery zone",
+				"Responsive and modern web interface",
+				"Assistance in product configuration with Artificial Intelligence"
 			],
 			"images": [],
 			"results": [
-				"Complete Web-based ERP system for commercial management"
+				"Very easy-to-use simple e-commerce system",
+				"Integration with OpenAI in the product module",
+				"Automatic delivery cost calculation",
+				"Integration with the store's WhatsApp"
 			],
-			"challenges": [
-				"Ensure consistency in queries to the multi-tenant database",
-				"Optimize read operations using Redis for caching frequent queries",
-				"Implement integration with the Tax Authority for electronic invoice issuance",
-				"Integrate with Zebra printers via the ZPL protocol for label printing"
-			],
+			"challenges": [],
 			"learnings": [
-				"Development of RESTful API",
-				"Cache-Aside model with Redis",
-				"Multi-tenant database architecture for multiple clients",
-				"Configuration of IPs, domains and SSL certificates using Homehost and Registro.br",
-				"Deployment of system in a Linux environment using a virtual machine with Apache on AWS (Amazon EC2)",
-				"Communication with cloud database using Amazon RDS",
-				"Integration with Zebra printers via the ZPL protocol",
-				"Integration with the Tax Authority for electronic invoice issuance"
+				"Integration with external Artificial Intelligence APIs",
+				"Prototyping intelligent interfaces for desktop and mobile for simple website creation"
 			]
 		}
 	},
@@ -287,7 +333,7 @@
 		"title": "LeãoFut",
 		"description": "Study project for learning web scraping, data extraction, transformation and loading (ETL), and data analysis",
 		"banner": {
-			"src": "/projects/leaofut/banner.webp",
+			"src": "/projects/leaofut/banner.png",
 			"alt": "LeãoFut banner",
 			"width": 1920,
 			"height": 1080
