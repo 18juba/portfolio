@@ -186,15 +186,7 @@
 		},
 		"more": {
 			"overview": "TorcidasPRO was created to modernize and facilitate the management of local supporters' groups in the capital of Ceará, and has expanded to serve large supporters' groups of the biggest clubs in Brazil.",
-			"features": [
-				"User registration and authentication with JWT",
-				"Individual management of dug ponds (tanks)",
-				"Telemetry received from ESP32-C6 devices in a Zigbee network via the MQTT messaging protocol",
-				"Real-time visualization of temperature, pH, dissolved solids, turbidity and other metrics",
-				"Generation of printed reports or Excel spreadsheets by tank and time interval",
-				"Full reading history and identification of important changes",
-                "Sending important alerts via WhatsApp"
-			],
+			"features": [],
 			"images": [
 				{
 					"src": "/projects/torcidaspro/dashboard.png",
