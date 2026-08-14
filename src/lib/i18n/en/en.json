@@ -1,58 +1,61 @@
 {
 	"meta": {
-		"title": "Jorge Lucas - Computer Engineering",
-		"description": "Software development, data science and IoT"
+		"title": "Jorge Lucas | Computer Engineering, Software and IoT",
+		"description": "Portfolio of Jorge Lucas, a Computer Engineering student based in Fortaleza, Brazil, focused on software development, backend systems, data science, IoT and web development.",
+		"keywords": "Jorge Lucas, Computer Engineering, software engineer, software development, backend, Go, SvelteKit, IoT, data science, web development, Fortaleza, Brazil",
+		"ogTitle": "Jorge Lucas | Computer Engineering, Software and IoT",
+		"ogDescription": "Professional portfolio of Jorge Lucas, featuring projects in software development, backend systems, data science, web development and IoT"
 	},
 
 	"hero": {
 		"greeting": "Hi, I'm",
 		"title": "Computer Engineering Student",
-		"about": "I'm a Computer Engineering student, focused on software development and data science",
-        "location": "Brazil",
-        "available": "Available for internships, trainee and remote opportunities",
-        "resume": "Download Resume",
-        "resume_url": "/jorge_lucas_engineer.pdf"
+		"about": "I'm a Computer Engineering student focused on software development, backend systems, data science and IoT.",
+		"location": "Fortaleza, Brazil",
+		"available": "Available for internships, trainee programs and remote opportunities",
+		"resume": "Download Resume",
+		"resume_url": "/jorge_lucas_engineer.pdf"
 	},
 
-    "sections": {
-        "technology": "Main Technologies",
-        "projects": "Main Projects",
-        "experience": "Professional Experiences",
-        "education": "Academic Formation"
-    },
+	"sections": {
+		"technology": "Main Technologies",
+		"projects": "Featured Projects",
+		"experience": "Professional Experience",
+		"education": "Education"
+	},
 
-    "ui": {
-        "common": {
-            "linkedin": "LinkedIn",
-            "newTabSuffix": ", opens in a new tab",
-            "linkedinAlt": "LinkedIn icon",
-            "profileAlt": "Photo of Jorge Lucas"
-        },
-        "navigation": {
-            "ariaLabel": "Language",
-            "brazilAlt": "Brazil icon",
-            "englishAlt": "United States icon"
-        },
-        "projectCard": {
-            "details": "View details",
-            "accessProject": "Open project",
-            "accessDemo": "Open demo",
-            "sourceCode": "View source code",
-            "technologies": "Technologies",
-            "overview": "About the project",
-            "features": "Main features",
-            "gallery": "Interface and features",
-            "results": "Results",
-            "challenges": "Technical challenges",
-            "learnings": "Learnings",
-            "closeDetails": "Close project details",
-            "usedIn": "Technologies used in"
-        },
-        "education": {
-            "ongoing": "In Progress"
-        },
-        "experience": {
-            "separator": "to"
-        }
-    }
+	"ui": {
+		"common": {
+			"linkedin": "LinkedIn",
+			"newTabSuffix": ", opens in a new tab",
+			"linkedinAlt": "LinkedIn icon",
+			"profileAlt": "Photo of Jorge Lucas"
+		},
+		"navigation": {
+			"ariaLabel": "Language",
+			"brazilAlt": "Brazil icon",
+			"englishAlt": "United States icon"
+		},
+		"projectCard": {
+			"details": "View details",
+			"accessProject": "Open project",
+			"accessDemo": "Open demo",
+			"sourceCode": "View source code",
+			"technologies": "Technologies",
+			"overview": "About the project",
+			"features": "Main features",
+			"gallery": "Interface and features",
+			"results": "Results",
+			"challenges": "Technical challenges",
+			"learnings": "Learnings",
+			"closeDetails": "Close project details",
+			"usedIn": "Technologies used in"
+		},
+		"education": {
+			"ongoing": "In Progress"
+		},
+		"experience": {
+			"separator": "to"
+		}
+	}
 }

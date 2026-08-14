@@ -344,7 +344,7 @@
 			"repository": ""
 		},
 		"more": {
-			"overview": "",
+			"overview": "Pipeline de dados para extração de informações do elenco, transformação e normalização dos dados e disponibilização para exploração e visualização interativa",
 			"features": [
 				"Web scraping da plataforma Transfermarkt para extração de dados do clube e atletas",
 				"Informações sobre atletas, histórico de transferências e valor de mercado",

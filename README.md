@@ -1,42 +1,126 @@
-# sv
+# Jorge Lucas — Portfólio
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+<p align="center">
+  <strong>Portfólio pessoal desenvolvido com SvelteKit, Svelte 5 e Tailwind CSS.</strong>
+</p>
 
-## Creating a project
+<p align="center">
+  <a href="https://www.linkedin.com/in/jorge-lucas-silva" target="_blank">LinkedIn</a>
+  ·
+  <a href="./static/Curriculo_Jorge_Lucas_Engenharia.pdf" target="_blank">Currículo</a>
+</p>
 
-If you're seeing this, you've probably already done this step. Congrats!
+---
 
-```sh
-# create a new project
-npx sv create my-app
+## Sobre
+
+Este repositório contém meu portfólio pessoal, desenvolvido para apresentar minha formação acadêmica, experiência profissional, projetos e conhecimentos técnicos.
+
+O projeto foi construído com foco em uma interface simples, responsiva e acessível, com suporte aos idiomas português e inglês.
+
+## Tecnologias
+
+* Svelte 5
+* SvelteKit
+* Tailwind CSS
+* JavaScript
+* Vite
+* HTML semântico
+
+## Principais recursos
+
+* 🌐 Suporte a **Português** e **Inglês**
+* 📱 Design responsivo
+* ♿ Interface com recursos de acessibilidade
+* 🔍 SEO e metadados para mecanismos de busca e compartilhamento
+* 💼 Apresentação de projetos pessoais, acadêmicos e profissionais
+* 🧩 Interface baseada em componentes reutilizáveis
+
+## Estrutura
+
+```text
+.
+├── src/
+│   ├── lib/
+│   │   ├── components/
+│   │   ├── data/
+│   │   └── i18n/
+│   │
+│   └── routes/
+│       └── [[lang]]/
+│
+├── static/
+│   ├── icons/
+│   ├── illustrations/
+│   └── projects/
+│
+├── package.json
+├── svelte.config.js
+└── vite.config.ts
 ```
 
-To recreate this project with the same configuration:
+## Executando localmente
 
-```sh
-# recreate this project
-bun x sv@0.17.0 create --template minimal --no-types --add tailwindcss="plugins:none" --install bun portfolio
+Clone o repositório:
+
+```bash
+git clone https://github.com/18juba/portfolio
+cd portfolio
 ```
 
-## Developing
+Instale as dependências:
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```sh
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+```bash
+bun install
 ```
 
-## Building
+Inicie o ambiente de desenvolvimento:
 
-To create a production version of your app:
-
-```sh
-npm run build
+```bash
+bun run dev
 ```
 
-You can preview the production build with `npm run preview`.
+A aplicação estará disponível, por padrão, em:
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+```text
+http://localhost:5173
+```
+
+## Build de produção
+
+Para gerar a versão de produção:
+
+```bash
+bun run build
+```
+
+Para visualizar a build localmente:
+
+```bash
+bun run preview
+```
+
+## Internacionalização
+
+| Idioma         | Rota  |
+| -------------- | ----- |
+| 🇧🇷 Português | `/`   |
+| 🇺🇸 English   | `/en` |
+
+O conteúdo é organizado por idioma, permitindo que textos e informações do portfólio sejam apresentados adequadamente para cada versão.
+
+## SEO
+
+O projeto possui uma estrutura preparada para SEO, incluindo:
+
+* `title` e `meta description`
+* Canonical URLs
+* `hreflang`
+* `robots.txt`
+* Metadados específicos por idioma
+
+---
+
+<p align="center">
+  Desenvolvido por <strong>Jorge Lucas</strong>
+</p>

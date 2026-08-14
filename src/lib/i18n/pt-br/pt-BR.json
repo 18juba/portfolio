@@ -1,58 +1,61 @@
 {
 	"meta": {
-		"title": "Jorge Lucas - Engenheiro de Computação",
-		"description": "Desenvolvimento de software, ciência de dados e IoT"
+		"title": "Jorge Lucas | Engenharia de Computação, Software e IoT",
+		"description": "Portfólio de Jorge Lucas, estudante de Engenharia da Computação em Fortaleza, Ceará, com experiência em desenvolvimento de software, backend, ciência de dados, sistemas IoT e desenvolvimento web.",
+		"keywords": "Jorge Lucas, Engenharia da Computação, desenvolvedor, software engineer, desenvolvimento de software, backend, Go, SvelteKit, IoT, ciência de dados, Fortaleza, Ceará",
+		"ogTitle": "Jorge Lucas | Engenharia de Computação, Software e IoT",
+		"ogDescription": "Portfólio profissional de Jorge Lucas, com projetos em desenvolvimento de software, backend, ciência de dados, desenvolvimento web e IoT"
 	},
 
 	"hero": {
 		"greeting": "Olá, eu sou",
 		"title": "Estudante de Engenharia da Computação",
-		"about": "Sou estudante de Engenharia da Computação, com foco em desenvolvimento de software e ciência de dados",
-        "location": "Fortaleza, Ceará",
-        "available": "Disponível para estágio, trainee e oportunidades remotas",
-        "resume": "Baixar Currículo",
-        "resume_url": "/Curriculo_Jorge_Lucas_Engenharia.pdf"
+		"about": "Sou estudante de Engenharia da Computação, com foco em desenvolvimento de software, backend, ciência de dados e sistemas IoT.",
+		"location": "Fortaleza, Ceará",
+		"available": "Disponível para estágio, trainee e oportunidades remotas",
+		"resume": "Baixar Currículo",
+		"resume_url": "/Curriculo_Jorge_Lucas_Engenharia.pdf"
 	},
 
-    "sections": {
-        "technology": "Principais Tecnologias",
-        "projects": "Principais Projetos",
-        "experience": "Experiências Profissionais",
-        "education": "Formação Acadêmica"
-    },
+	"sections": {
+		"technology": "Principais Tecnologias",
+		"projects": "Principais Projetos",
+		"experience": "Experiências Profissionais",
+		"education": "Formação Acadêmica"
+	},
 
-    "ui": {
-        "common": {
-            "linkedin": "LinkedIn",
-            "newTabSuffix": ", abre em uma nova aba",
-            "linkedinAlt": "Ícone do LinkedIn",
-            "profileAlt": "Foto de Jorge Lucas"
-        },
-        "navigation": {
-            "ariaLabel": "Idioma",
-            "brazilAlt": "Ícone do Brasil",
-            "englishAlt": "Ícone dos Estados Unidos"
-        },
-        "projectCard": {
-            "details": "Ver detalhes",
-            "accessProject": "Acessar projeto",
-            "accessDemo": "Acessar demonstração",
-            "sourceCode": "Ver código-fonte",
-            "technologies": "Tecnologias",
-            "overview": "Sobre o projeto",
-            "features": "Principais funcionalidades",
-            "gallery": "Interface e funcionalidades",
-            "results": "Resultados",
-            "challenges": "Desafios técnicos",
-            "learnings": "Aprendizados",
-            "closeDetails": "Fechar detalhes do projeto",
-            "usedIn": "Tecnologias utilizadas em"
-        },
-        "education": {
-            "ongoing": "Em Andamento"
-        },
-        "experience": {
-            "separator": "a"
-        }
-    }
+	"ui": {
+		"common": {
+			"linkedin": "LinkedIn",
+			"newTabSuffix": ", abre em uma nova aba",
+			"linkedinAlt": "Ícone do LinkedIn",
+			"profileAlt": "Foto de Jorge Lucas"
+		},
+		"navigation": {
+			"ariaLabel": "Idioma",
+			"brazilAlt": "Ícone do Brasil",
+			"englishAlt": "Ícone dos Estados Unidos"
+		},
+		"projectCard": {
+			"details": "Ver detalhes",
+			"accessProject": "Acessar projeto",
+			"accessDemo": "Acessar demonstração",
+			"sourceCode": "Ver código-fonte",
+			"technologies": "Tecnologias",
+			"overview": "Sobre o projeto",
+			"features": "Principais funcionalidades",
+			"gallery": "Interface e funcionalidades",
+			"results": "Resultados",
+			"challenges": "Desafios técnicos",
+			"learnings": "Aprendizados",
+			"closeDetails": "Fechar detalhes do projeto",
+			"usedIn": "Tecnologias utilizadas em"
+		},
+		"education": {
+			"ongoing": "Em Andamento"
+		},
+		"experience": {
+			"separator": "a"
+		}
+	}
 }

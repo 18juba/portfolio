@@ -289,7 +289,7 @@
 			"laravel",
 			"mysql",
 			"redis",
-			"react"
+			"nextjs"
 		],
 		"period": "2025",
 		"role": "Backend Developer",
@@ -342,7 +342,7 @@
 			"repository": ""
 		},
 		"more": {
-			"overview": "",
+			"overview": "Data pipeline for extracting information from the squad, transforming and normalizing the data, and making it available for exploration and interactive visualization",
 			"features": [
 				"Web scraping of the Transfermarkt platform to extract club and athlete data",
 				"Athlete information, transfer history and market value",
