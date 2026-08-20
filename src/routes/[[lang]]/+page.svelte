@@ -41,9 +41,10 @@
 			xl:grid-cols-3
 		"
     >
-      {#each t.projects as project (project.id)}
+      {#each t.projects as project, index (project.id)}
         <ProjectCard
           {...project}
+          priority={index === 0}
           labels={{
             ...t.ui.projectCard,
             newTabSuffix: t.ui.common.newTabSuffix,

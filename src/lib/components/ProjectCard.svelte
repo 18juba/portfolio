@@ -7,6 +7,7 @@
     description,
     banner,
     technologies = [],
+    priority = false,
     status,
     period,
     role,
@@ -98,7 +99,8 @@
         alt={banner.alt ?? ""}
         width={banner.width ?? 1280}
         height={banner.height ?? 720}
-        loading="lazy"
+        loading={priority ? "eager" : "lazy"}
+        fetchpriority={priority ? "high" : "auto"}
         decoding="async"
         draggable="false"
         class="

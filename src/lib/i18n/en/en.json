@@ -33,8 +33,6 @@
 		},
 		"navigation": {
 			"ariaLabel": "Language",
-			"brazilAlt": "Brazil icon",
-			"englishAlt": "United States icon",
 			"portugueseLabel": "Portuguese",
 			"englishLabel": "English"
 		},

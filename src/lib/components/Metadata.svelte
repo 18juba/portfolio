@@ -35,6 +35,8 @@
       },
     ],
   });
+
+  const structuredDataJson = $derived(JSON.stringify(structuredData).replaceAll("<", "\\u003c"));
 </script>
 
 <svelte:head>
@@ -108,6 +110,6 @@
   {/if}
 
   <script type="application/ld+json">
-		{@html JSON.stringify(structuredData)}
+		{@html structuredDataJson}
   </script>
 </svelte:head>
