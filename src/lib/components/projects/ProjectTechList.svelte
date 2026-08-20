@@ -26,7 +26,7 @@
 				]}
 			>
 				<img
-					src={`/icons/${technology}.png`}
+					src={`/icons/${technology}.webp`}
 					alt=""
 					width={variant === 'card' ? 16 : 20}
 					height={variant === 'card' ? 16 : 20}

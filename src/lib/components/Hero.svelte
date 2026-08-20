@@ -111,7 +111,7 @@
         "
       >
         <img
-          src="/icons/linkedin.png"
+          src="/icons/linkedin.webp"
           alt=""
           aria-hidden="true"
           class="h-5 w-5 object-contain"

@@ -68,7 +68,7 @@
 					"
 				>
 					<img
-						src="/icons/bra.png"
+						src="/icons/bra.webp"
 						alt=""
 						aria-hidden="true"
 						class="h-6 w-6 object-contain"
@@ -85,7 +85,7 @@
 					"
 				>
 					<img
-						src="/icons/usa.png"
+						src="/icons/usa.webp"
 						alt=""
 						aria-hidden="true"
 						class="h-6 w-6 object-contain"

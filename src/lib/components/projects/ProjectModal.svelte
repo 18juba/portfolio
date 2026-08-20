@@ -88,7 +88,7 @@
 			>
 				<img
 					aria-hidden="true"
-					src="/icons/close.png"
+					src="/icons/close.webp"
 					alt=""
 					class="h-10 w-10 object-contain"
 				/>

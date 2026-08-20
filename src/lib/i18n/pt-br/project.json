@@ -4,7 +4,7 @@
 		"title": "Retaguarda",
 		"description": "Sistema ERP web com emissão de notas fiscais eletrônicas, controle de movimentação, financeiro, inventário, relatórios impressos, integração com impressora Zebra e vendas com PDV integrado",
 		"banner": {
-			"src": "/projects/retaguarda/banner2.png",
+			"src": "/projects/retaguarda/banner2.webp",
 			"alt": "Banner do Retaguarda",
 			"width": 1920,
 			"height": 1080
@@ -94,7 +94,7 @@
 			],
 			"images": [
 				{
-					"src": "/projects/acquadata/dashboard.png",
+					"src": "/projects/acquadata/dashboard.webp",
 					"alt": "Dashboard com cartões de indicadores e gráficos das leituras de um viveiro",
 					"description": "Dashboard principal utilizado para acompanhar as medições atuais e históricas de cada viveiro",
 					"width": 1280,
@@ -106,7 +106,7 @@
 					]
 				},
 				{
-					"src": "/projects/acquadata/whatsapp.png",
+					"src": "/projects/acquadata/whatsapp.webp",
 					"alt": "Menu de integração com WhatsApp",
 					"description": "Menu para conectar número do WhatsApp e receber alertas importantes via mensagem",
 					"width": 1280,
@@ -118,7 +118,7 @@
 					]
 				},
 				{
-					"src": "/projects/acquadata/relatorios.png",
+					"src": "/projects/acquadata/relatorios.webp",
 					"alt": "Tela de relatórios com filtros de período e métricas",
 					"description": "Geração de relatórios impressos em PDF, planilhas no Excel ou CSV por viveiro e intervalo de tempo",
 					"width": 1280,
@@ -131,7 +131,7 @@
 					]
 				},
 				{
-					"src": "/projects/acquadata/tanques.png",
+					"src": "/projects/acquadata/tanques.webp",
 					"alt": "Tela de tanques com listagem de tanques cadastrados",
 					"description": "Gerenciamento de tanques e definição de dispositivos de medição para cada viveiro",
 					"width": 1280,
@@ -189,7 +189,7 @@
 			"features": [],
 			"images": [
 				{
-					"src": "/projects/torcidaspro/dashboard.png",
+					"src": "/projects/torcidaspro/dashboard.webp",
 					"alt": "Dashboard com cartões de indicadores financeiros e histórico recente de sócios e pagamentos",
 					"description": "Dashboard principal utilizado para acompanhar indicadores financeiros e histórico recente de sócios e pagamentos",
 					"width": 1280,
@@ -200,7 +200,7 @@
 					]
 				},
 				{
-					"src": "/projects/torcidaspro/cores.png",
+					"src": "/projects/torcidaspro/cores.webp",
 					"alt": "Menu de configurações com personalização completa do site",
 					"description": "Menu de configurações com personalização completa da plataforma com visualização em tempo real",
 					"width": 1280,
@@ -211,7 +211,7 @@
 					]
 				},
 				{
-					"src": "/projects/torcidaspro/financeiro.png",
+					"src": "/projects/torcidaspro/financeiro.webp",
 					"alt": "Painel de controle financeiro da plataforma",
 					"description": "Controle financeiro completo, com gerenciamento de pedidos, planos de sócio-torcedor, contas de gateways de pagamento e integração com fretamento",
 					"width": 1280,
@@ -223,7 +223,7 @@
 					]
 				},
 				{
-					"src": "/projects/torcidaspro/pedidos.png",
+					"src": "/projects/torcidaspro/pedidos.webp",
 					"alt": "Painel de controle de pedidos da plataforma",
 					"description": "Gerenciamento de pedidos, pagamentos e status de entrega",
 					"width": 1280,
@@ -234,7 +234,7 @@
 					]
 				},
 				{
-					"src": "/projects/torcidaspro/produtos.png",
+					"src": "/projects/torcidaspro/produtos.webp",
 					"alt": "Painel de controle de produtos da plataforma",
 					"description": "Gerenciamento de produtos com controle de estoque, medidas e pesos",
 					"width": 1280,
@@ -245,7 +245,7 @@
 					]
 				},
 								{
-					"src": "/projects/torcidaspro/torcedor.png",
+					"src": "/projects/torcidaspro/torcedor.webp",
 					"alt": "Painel do torcedor",
 					"description": "Painel do torcedor com check-in em eventos, programas de fidelidade e histórico de pedidos",
 					"width": 1280,
@@ -279,7 +279,7 @@
 		"title": "Vitrine Virtual",
 		"description": "Sistema de vitrine para exibição simples de produtos e serviços, integrado com WhatsApp para contato direto com o vendedor e com cálculo de frete automático",
 		"banner": {
-			"src": "/projects/vitrine/banner.png",
+			"src": "/projects/vitrine/banner.webp",
 			"alt": "Banner do Vitrine Virtual",
 			"width": 1920,
 			"height": 1080
@@ -325,7 +325,7 @@
 		"title": "LeãoFut",
 		"description": "Projeto de estudos para aprendizado de web scraping, processo de extração, transformação e carregamento de dados (ETL) e análise de dados",
 		"banner": {
-			"src": "/projects/leaofut/banner.png",
+			"src": "/projects/leaofut/banner.webp",
 			"alt": "Banner do LeãoFut",
 			"width": 1920,
 			"height": 1080

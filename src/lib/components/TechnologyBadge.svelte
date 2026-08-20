@@ -7,7 +7,7 @@
 >
   <figure class="border-r border-white w-10 h-10 pr-2">
     <img
-      src="/icons/{icon}.png"
+      src="/icons/{icon}.webp"
       alt=""
       aria-hidden="true"
       class="w-full h-full object-contain pointer-events-none select-none"

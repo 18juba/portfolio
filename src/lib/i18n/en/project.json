@@ -4,7 +4,7 @@
 		"title": "Retaguarda",
 		"description": "Web-based ERP system with electronic invoice issuance, movement control, financial management, inventory, printed reports, integration with Zebra printers and sales with integrated POS",
 		"banner": {
-			"src": "/projects/retaguarda/banner2.png",
+			"src": "/projects/retaguarda/banner2.webp",
 			"alt": "Banner do Retaguarda",
 			"width": 1920,
 			"height": 1080
@@ -94,7 +94,7 @@
 			],
 			"images": [
 				{
-					"src": "/projects/acquadata/dashboard.png",
+					"src": "/projects/acquadata/dashboard.webp",
 					"alt": "Dashboard with indicator cards and reading charts for a pond",
 					"description": "Main dashboard used to track the current and historical measurements of each pond",
 					"width": 1280,
@@ -106,7 +106,7 @@
 					]
 				},
 				{
-					"src": "/projects/acquadata/whatsapp.png",
+					"src": "/projects/acquadata/whatsapp.webp",
 					"alt": "WhatsApp integration menu",
 					"description": "Menu to connect a WhatsApp number and receive important alerts by message",
 					"width": 1280,
@@ -118,7 +118,7 @@
 					]
 				},
 				{
-					"src": "/projects/acquadata/relatorios.png",
+					"src": "/projects/acquadata/relatorios.webp",
 					"alt": "Reports screen with period and metric filters",
 					"description": "Generation of printed reports in PDF, Excel spreadsheets or CSV by pond and time interval",
 					"width": 1280,
@@ -131,7 +131,7 @@
 					]
 				},
 				{
-					"src": "/projects/acquadata/tanques.png",
+					"src": "/projects/acquadata/tanques.webp",
 					"alt": "Tanks screen with a list of registered tanks",
 					"description": "Tank management and definition of measuring devices for each pond",
 					"width": 1280,
@@ -189,7 +189,7 @@
 			"features": [],
 			"images": [
 				{
-					"src": "/projects/torcidaspro/dashboard.png",
+					"src": "/projects/torcidaspro/dashboard.webp",
 					"alt": "Dashboard with financial indicator cards and recent member and payment history",
 					"description": "Main dashboard used to monitor financial indicators and recent member and payment history",
 					"width": 1280,
@@ -200,7 +200,7 @@
 					]
 				},
 				{
-					"src": "/projects/torcidaspro/cores.png",
+					"src": "/projects/torcidaspro/cores.webp",
 					"alt": "Settings menu with complete site customization",
 					"description": "Settings menu with complete platform customization and real-time preview",
 					"width": 1280,
@@ -211,7 +211,7 @@
 					]
 				},
 				{
-					"src": "/projects/torcidaspro/financeiro.png",
+					"src": "/projects/torcidaspro/financeiro.webp",
 					"alt": "Platform financial control panel",
 					"description": "Complete financial control, with order management, supporter plan management, payment gateway accounts and freight integration",
 					"width": 1280,
@@ -223,7 +223,7 @@
 					]
 				},
 				{
-					"src": "/projects/torcidaspro/pedidos.png",
+					"src": "/projects/torcidaspro/pedidos.webp",
 					"alt": "Platform order control panel",
 					"description": "Management of orders, payments and delivery status",
 					"width": 1280,
@@ -234,7 +234,7 @@
 					]
 				},
 				{
-					"src": "/projects/torcidaspro/produtos.png",
+					"src": "/projects/torcidaspro/produtos.webp",
 					"alt": "Platform product control panel",
 					"description": "Product management with stock, size and weight control",
 					"width": 1280,
@@ -245,7 +245,7 @@
 					]
 				},
 								{
-					"src": "/projects/torcidaspro/torcedor.png",
+					"src": "/projects/torcidaspro/torcedor.webp",
 					"alt": "Supporter dashboard",
 					"description": "Supporter dashboard with event check-in, loyalty program and order history",
 					"width": 1280,
@@ -279,7 +279,7 @@
 		"title": "Vitrine Virtual",
 		"description": "Simple e-commerce system for displaying products and services, integrated with WhatsApp for direct contact with the seller and automatic shipping cost calculation",
 		"banner": {
-			"src": "/projects/vitrine/banner.png",
+			"src": "/projects/vitrine/banner.webp",
 			"alt": "Vitrine Virtual banner",
 			"width": 1920,
 			"height": 1080
@@ -325,7 +325,7 @@
 		"title": "LeãoFut",
 		"description": "Study project for learning web scraping, data extraction, transformation and loading (ETL), and data analysis",
 		"banner": {
-			"src": "/projects/leaofut/banner.png",
+			"src": "/projects/leaofut/banner.webp",
 			"alt": "LeãoFut banner",
 			"width": 1920,
 			"height": 1080
