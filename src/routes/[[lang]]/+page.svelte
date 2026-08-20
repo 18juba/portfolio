@@ -3,7 +3,7 @@
 
   import TechnologyBadge from "$lib/components/TechnologyBadge.svelte";
   import Experience from "$lib/components/Experience.svelte";
-  import ProjectCard from "$lib/components/ProjectCard.svelte";
+  import ProjectCard from "$lib/components/projects/ProjectCard.svelte";
   import Education from "$lib/components/Education.svelte";
   import Header from "$lib/components/Header.svelte";
   import Hero from "$lib/components/Hero.svelte";
