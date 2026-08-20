@@ -12,9 +12,11 @@
     "title": "Computer Engineering Student",
     "about": "I'm a Computer Engineering student focused on software development, backend systems, data science and IoT.",
     "location": "Fortaleza, Brazil",
-    "available": "Available for internships, trainee programs and remote opportunities",
-    "resume": "Download Resume",
-    "resume_url": "/jorge_lucas_engineer.pdf"
+    "available": "Open to internships, trainee programs, and remote opportunities",
+    "resume": "Download resume",
+    "resume_url": "/jorge_lucas_engineer.pdf",
+    "contact": "Get in touch",
+    "contact_url": "mailto:jubalucas05@gmail.com"
   },
 
   "sections": {

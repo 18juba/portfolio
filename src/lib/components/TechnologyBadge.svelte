@@ -3,7 +3,7 @@
 </script>
 
 <div
-  class="px-2 py-1 flex gap-4 items-center bg-neutral-900 rounded-lg w-40"
+  class="px-2 py-1 flex gap-4 items-center bg-neutral-900 rounded-lg w-40" title={description} aria-label={description}
 >
   <figure class="border-r border-white w-10 h-10 pr-2">
     <img

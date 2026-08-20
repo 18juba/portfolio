@@ -12,9 +12,11 @@
     "title": "Estudante de Engenharia da Computação",
     "about": "Sou estudante de Engenharia da Computação, com foco em desenvolvimento de software, backend, ciência de dados e sistemas IoT.",
     "location": "Fortaleza, Ceará",
-    "available": "Disponível para estágio, trainee e oportunidades remotas",
-    "resume": "Baixar Currículo",
-    "resume_url": "/Curriculo_Jorge_Lucas_Engenharia.pdf"
+    "available": "Aberto a estágio, trainee e oportunidades remotas",
+    "resume": "Baixar currículo",
+    "resume_url": "/Curriculo_Jorge_Lucas_Engenharia.pdf",
+    "contact": "Fale comigo",
+    "contact_url": "mailto:jubalucas05@gmail.com"
   },
 
   "sections": {
