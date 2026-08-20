@@ -1,61 +1,69 @@
 {
-	"meta": {
-		"title": "Jorge Lucas | Computer Engineering, Software and IoT",
-		"description": "Portfolio of Jorge Lucas, a Computer Engineering student based in Fortaleza, Brazil, focused on software development, backend systems, data science, IoT and web development.",
-		"keywords": "Jorge Lucas, Computer Engineering, software engineer, software development, backend, Go, SvelteKit, IoT, data science, web development, Fortaleza, Brazil",
-		"ogTitle": "Jorge Lucas | Computer Engineering, Software and IoT",
-		"ogDescription": "Professional portfolio of Jorge Lucas, featuring projects in software development, backend systems, data science, web development and IoT"
-	},
+  "meta": {
+    "title": "Jorge Lucas | Computer Engineering, Software and IoT",
+    "description": "Portfolio of Jorge Lucas, a Computer Engineering student based in Fortaleza, Brazil, focused on software development, backend systems, data science, IoT and web development.",
+    "keywords": "Jorge Lucas, Computer Engineering, software engineer, software development, backend, Go, SvelteKit, IoT, data science, web development, Fortaleza, Brazil",
+    "ogTitle": "Jorge Lucas | Computer Engineering, Software and IoT",
+    "ogDescription": "Professional portfolio of Jorge Lucas, featuring projects in software development, backend systems, data science, web development and IoT"
+  },
 
-	"hero": {
-		"greeting": "Hi, I'm",
-		"title": "Computer Engineering Student",
-		"about": "I'm a Computer Engineering student focused on software development, backend systems, data science and IoT.",
-		"location": "Fortaleza, Brazil",
-		"available": "Available for internships, trainee programs and remote opportunities",
-		"resume": "Download Resume",
-		"resume_url": "/jorge_lucas_engineer.pdf"
-	},
+  "hero": {
+    "greeting": "Hi, I'm",
+    "title": "Computer Engineering Student",
+    "about": "I'm a Computer Engineering student focused on software development, backend systems, data science and IoT.",
+    "location": "Fortaleza, Brazil",
+    "available": "Available for internships, trainee programs and remote opportunities",
+    "resume": "Download Resume",
+    "resume_url": "/jorge_lucas_engineer.pdf"
+  },
 
-	"sections": {
-		"technology": "Main Technologies",
-		"projects": "Featured Projects",
-		"experience": "Professional Experience",
-		"education": "Education"
-	},
+  "sections": {
+    "technology": "Main Technologies",
+    "projects": "Featured Projects",
+    "experience": "Professional Experience",
+    "education": "Education"
+  },
 
-	"ui": {
-		"common": {
-			"linkedin": "LinkedIn",
-			"newTabSuffix": ", opens in a new tab",
-			"linkedinAlt": "LinkedIn icon",
-			"profileAlt": "Photo of Jorge Lucas"
-		},
-		"navigation": {
-			"ariaLabel": "Language",
-			"portugueseLabel": "Portuguese",
-			"englishLabel": "English"
-		},
-		"projectCard": {
-			"details": "View details",
-			"accessProject": "Open project",
-			"accessDemo": "Open demo",
-			"sourceCode": "View source code",
-			"technologies": "Technologies",
-			"overview": "About the project",
-			"features": "Main features",
-			"gallery": "Interface and features",
-			"results": "Results",
-			"challenges": "Technical challenges",
-			"learnings": "Learnings",
-			"closeDetails": "Close project details",
-			"usedIn": "Technologies used in"
-		},
-		"education": {
-			"ongoing": "In Progress"
-		},
-		"experience": {
-			"separator": "to"
-		}
-	}
+  "ui": {
+    "common": {
+      "linkedin": "LinkedIn",
+      "newTabSuffix": ", opens in a new tab",
+      "linkedinAlt": "LinkedIn icon",
+      "profileAlt": "Photo of Jorge Lucas"
+    },
+    "navigation": {
+      "ariaLabel": "Main navigation",
+      "portugueseLabel": "Português",
+      "englishLabel": "English",
+      "home": "Home",
+      "projects": "Projects",
+      "technologies": "Technologies",
+      "experience": "Experience",
+      "education": "Education",
+      "contact": "Contact",
+      "menuOpen": "Open menu",
+      "menuClose": "Close menu"
+    },
+    "projectCard": {
+      "details": "View details",
+      "accessProject": "Open project",
+      "accessDemo": "Open demo",
+      "sourceCode": "View source code",
+      "technologies": "Technologies",
+      "overview": "About the project",
+      "features": "Main features",
+      "gallery": "Interface and features",
+      "results": "Results",
+      "challenges": "Technical challenges",
+      "learnings": "Learnings",
+      "closeDetails": "Close project details",
+      "usedIn": "Technologies used in"
+    },
+    "education": {
+      "ongoing": "In Progress"
+    },
+    "experience": {
+      "separator": "to"
+    }
+  }
 }

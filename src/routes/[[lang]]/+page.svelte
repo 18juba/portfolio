@@ -24,12 +24,12 @@
 
 <Metadata data={t.meta} locale/>
 
-<div class="w-full py-8 px-4 sm:px-12 md:px-18 lg:px-24 xl:px-36 2xl:px-48">
+<div class="w-full py-4 px-4 sm:px-12 md:px-18 lg:px-24 xl:px-36 2xl:px-48">
   <Header data={t.ui.navigation} {locale} />
 
   <Hero data={t.hero} common={t.ui.common} />
 
-  <section class="mb-12" aria-labelledby="projects-title">
+  <section id="projects" class="mb-12" aria-labelledby="projects-title">
     <h2 id="projects-title" class="text-2xl font-bold text-neutral-100 mb-6">
       {t.sections.projects}
     </h2>
@@ -54,7 +54,7 @@
     </div>
   </section>
 
-  <section class="mb-12" aria-labelledby="technologies-title">
+  <section id="technologies" class="mb-12" aria-labelledby="technologies-title">
     <h2 id="technologies-title" class="text-2xl font-bold mb-4">
       {t.sections.technology}
     </h2>
@@ -65,7 +65,7 @@
     </div>
   </section>
 
-  <section class="mb-12" aria-labelledby="experiences-title">
+  <section id="experience" class="mb-12" aria-labelledby="experiences-title">
     <h2 id="experiences-title" class="text-2xl font-bold mb-4">
       {t.sections.experience}
     </h2>
@@ -77,7 +77,7 @@
     {/each}
   </section>
 
-  <section class="mb-12" aria-labelledby="education-title">
+  <section id="education" class="mb-12" aria-labelledby="education-title">
     <h2 id="education-title" class="mb-6 text-2xl font-bold">
       {t.sections.education}
     </h2>
