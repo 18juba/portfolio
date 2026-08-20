@@ -1,5 +1,7 @@
 <script>
   let { data, common } = $props();
+
+  import { track } from '@vercel/analytics';
 </script>
 
 <section
