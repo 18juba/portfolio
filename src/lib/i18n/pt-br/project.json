@@ -49,9 +49,9 @@
 			"learnings": [
 				"Desenvolvimento de API RESTful",
 				"Modelo Cache-Aside com Redis",
-				"Arquitetura de banco de dados multi-tenant para multiplos clientes",
+				"Arquitetura de banco de dados multi-tenant para múltiplos clientes",
 				"Configuração de IPs, domínios e certificados SSL utilizando Homehost e Registro.br",
-				"Implantação de sistema em ambiente linux usando maquina virtual com Apache na AWS (Amazon EC2)",
+				"Implantação de sistema em ambiente Linux usando máquina virtual com Apache na AWS (Amazon EC2)",
 				"Comunicação com banco de dados em nuvem usando Amazon RDS",
 				"Integração com impressoras Zebra via protocolo ZPL",
 				"Integração com a Secretaria da Fazenda para emissão de notas fiscais eletrônicas"
@@ -86,11 +86,11 @@
 			"features": [
 				"Cadastro e autenticação de usuários com JWT",
 				"Gerenciamento individual de viveiros escavados (tanques)",
-				"Recebimento de telemetria enviada por dispositivos ESP32-C6 em uma rede zigbee via protocolo de mensageria MQTT",
+				"Recebimento de telemetria enviada por dispositivos ESP32-C6 em uma rede Zigbee via protocolo de mensageria MQTT",
 				"Visualização em tempo real de temperatura, pH, sólidos dissolvidos, turbidez e outras métricas",
 				"Geração de relatórios impressos ou planilhas no Excel por tanque e intervalo de tempo",
 				"Histórico completo de leituras e identificação de alterações importantes",
-                "Envio de alertas importantes via Whatsapp"
+				"Envio de alertas importantes via WhatsApp"
 			],
 			"images": [
 				{
@@ -107,12 +107,12 @@
 				},
 				{
 					"src": "/projects/acquadata/whatsapp.png",
-					"alt": "Menu de integração com Whatsapp",
-					"description": "Menu para conectar número do Whatsapp e receber alertas importantes via mensagem",
+					"alt": "Menu de integração com WhatsApp",
+					"description": "Menu para conectar número do WhatsApp e receber alertas importantes via mensagem",
 					"width": 1280,
 					"height": 720,
 					"features": [
-						"Integrar Whatsapp com dashboard via QR Code",
+						"Integrar WhatsApp com dashboard via QR Code",
 						"Configuração de parâmetros mínimo e máximo recomendados para cada métrica",
 						"Definição de regras para envio de alertas"
 					]
@@ -144,16 +144,16 @@
 			],
 			"results": [
 				"Servidor capaz de processar dezenas de leituras simultâneas de sensores em tempo real",
-				"Servidor capaz de detectar leitura fora do esperado e enviar alertas via Whatsapp",
+				"Servidor capaz de detectar leitura fora do esperado e enviar alertas via WhatsApp",
 				"Painel web responsivo e com gráficos interativos para visualização de métricas em tempo real",
-                "Sistema de relatórios impressos em PDF, exportação de dados para Excel ou CSV",
-                "Projeto pronto para evoluir e se tornar um ERP completo para fazendas de carcinicultura"
+				"Sistema de relatórios impressos em PDF, exportação de dados para Excel ou CSV",
+				"Projeto pronto para evoluir e se tornar um ERP completo para fazendas de carcinicultura"
 			],
 			"challenges": [
 				"Preparar rede Zigbee para que o dispositivo funcione em ambientes abertos e com difícil acesso a Wi-Fi",
-                "Garantir que o hardware funcione com baixo consumo de energia e seja recarregável com energia solar",
-                "Criar sistema de provisionamento para que o usuário final vincule seu dispotivo à sua conta de forma simples",
-                "Garantir que o servidor seja capaz de processar um grande número de leituras simultâneas"
+				"Garantir que o hardware funcione com baixo consumo de energia e seja recarregável com energia solar",
+				"Criar sistema de provisionamento para que o usuário final vincule seu dispositivo à sua conta de forma simples",
+				"Garantir que o servidor seja capaz de processar um grande número de leituras simultâneas"
 			],
 			"learnings": [
 				"Protocolo de mensageria MQTT e integração com dispositivos IoT",
@@ -186,9 +186,7 @@
 		},
 		"more": {
 			"overview": "O TorcidasPRO surgiu com a necessidade de modernizar e facilitar a gestão de torcidas locais da capital cearense, e se expandiu para atender grandes torcidas dos maiores clubes do Brasil",
-			"features": [
-				""
-			],
+			"features": [],
 			"images": [
 				{
 					"src": "/projects/torcidaspro/dashboard.png",
@@ -313,7 +311,7 @@
 				"Sistema de e-commerce simples muito fácil de usar",
 				"Integração com OpenAI no módulo de produtos",
 				"Cálculo de custo de entrega automático",
-				"Integração com o Whatsap da loja"
+				"Integração com o WhatsApp da loja"
 			],
 			"challenges": [],
 			"learnings": [
@@ -370,7 +368,7 @@
 	{
 		"id": "cartograficos",
 		"title": "CARtográficos",
-		"description": "Solução proposta para o hackaton HaCARthon sobre melhorias no CAR (Cadastro Ambiental Rural), referente ao desafio: Melhorar os dados geoespaciais do CAR",
+		"description": "Solução proposta para o hackathon HaCARthon sobre melhorias no CAR (Cadastro Ambiental Rural), referente ao desafio de melhorar os dados geoespaciais do CAR",
 		"banner": {
 			"src": "/projects/cartograficos/banner.webp",
 			"alt": "Banner do Cartográficos",
@@ -387,7 +385,7 @@
 			"repository": ""
 		},
 		"more": {
-			"overview": "O hackaton proposto pela Enap tem como finalidade o desenvolvimento de soluções inovadoras que contribuam para para o fortalecimento do Sistema do Cadastro Ambiental Rural (SICAR), escolhemos seguir com o desafio de melhorar os dados geoespaciais do CAR e sugerimos um sistema para realizar demarcação de imóvel via GPS, fornecendo quase 100% de precisão",
+			"overview": "O hackathon proposto pela Enap tem como finalidade o desenvolvimento de soluções inovadoras que contribuam para o fortalecimento do Sistema do Cadastro Ambiental Rural (SICAR). Escolhemos seguir com o desafio de melhorar os dados geoespaciais do CAR e sugerimos um sistema para realizar demarcação de imóvel via GPS, fornecendo quase 100% de precisão",
 			"features": [],
 			"images": [],
 			"results": [],

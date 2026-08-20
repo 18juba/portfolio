@@ -97,7 +97,8 @@
       >
         <img
           src="/icons/linkedin.png"
-          alt={common.linkedinAlt}
+          alt=""
+          aria-hidden="true"
           class="w-7 h-7 object-contain"
         />
         {common.linkedin}

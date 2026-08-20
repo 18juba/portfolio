@@ -10,26 +10,30 @@
     <a
       href="/"
       aria-current={locale === "pt-BR" ? "page" : undefined}
+      aria-label={data.portugueseLabel}
       class="p-1 rounded-full cursor-pointer
       		aria-[current=page]:bg-neutral-700
       "
     >
       <img
         src="/icons/bra.png"
-        alt={data.brazilAlt}
+        alt=""
+        aria-hidden="true"
         class="w-10 h-10 object-contain"
       />
     </a>
     <a
       href="/en"
       aria-current={locale === "en" ? "page" : undefined}
+      aria-label={data.englishLabel}
       class="p-1 rounded-full cursor-pointer
         aria-[current=page]:bg-neutral-700
       "
     >
       <img
         src="/icons/usa.png"
-        alt={data.englishAlt}
+        alt=""
+        aria-hidden="true"
         class="w-10 h-10 object-contain"
       />
     </a>

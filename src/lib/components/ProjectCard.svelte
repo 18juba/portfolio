@@ -18,9 +18,9 @@
   let dialog;
   let openButton;
 
-  const cardTitleId = `project-card-title-${id}`;
-  const dialogTitleId = `project-dialog-title-${id}`;
-  const dialogDescriptionId = `project-dialog-description-${id}`;
+  const cardTitleId = $derived(`project-card-title-${id}`);
+  const dialogTitleId = $derived(`project-dialog-title-${id}`);
+  const dialogDescriptionId = $derived(`project-dialog-description-${id}`);
 
   const technologyLabels = {
     svelte: "Svelte",
