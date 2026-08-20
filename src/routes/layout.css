@@ -6,7 +6,7 @@ html {
 }
 
 body {
-    font-family: 'Google Sans', sans-serif;
+    font-family: 'Google Sans Variable', 'Google Sans', system-ui, sans-serif;
     background-color: var(--color-neutral-950);
     color: var(--color-white);
 }
