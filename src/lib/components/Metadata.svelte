@@ -109,7 +109,5 @@
     />
   {/if}
 
-  <script type="application/ld+json">
-		{@html structuredDataJson}
-  </script>
+  {@html `<script type="application/ld+json">${structuredDataJson}</script>`}
 </svelte:head>
