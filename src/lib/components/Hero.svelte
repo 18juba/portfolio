@@ -124,11 +124,9 @@
     </div>
   </div>
 
-  <!-- Quando tiver foto profissional, descomente e use uma imagem real -->
-  <!--
   <figure class="mx-auto shrink-0 lg:mx-0">
     <img
-      src="/images/jorge-lucas.jpg"
+      src="eu.webp"
       alt={common.profileAlt}
       width="320"
       height="320"
@@ -143,5 +141,4 @@
       "
     />
   </figure>
-  -->
 </section>
