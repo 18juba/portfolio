@@ -8,7 +8,7 @@
   const alternatePtUrl = `${siteUrl}/`;
   const alternateEnUrl = `${siteUrl}/en`;
 
-  const ogImage = "";
+  const ogImage = `${siteUrl}/og-image.png`;
 
   const structuredData = $derived({
     "@context": "https://schema.org",

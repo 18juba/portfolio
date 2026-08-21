@@ -1,10 +1,10 @@
 {
   "meta": {
-    "title": "Jorge Lucas | Engenharia de Computação, Software e IoT",
+    "title": "Jorge Lucas | Engenharia de Computação, Desenvolvimento de Software e Análise de Dados",
     "description": "Portfólio de Jorge Lucas, estudante de Engenharia da Computação em Fortaleza, Ceará, com experiência em desenvolvimento de software, backend, ciência de dados, sistemas IoT e desenvolvimento web.",
     "keywords": "Jorge Lucas, Engenharia da Computação, desenvolvedor, software engineer, desenvolvimento de software, backend, Go, SvelteKit, IoT, ciência de dados, Fortaleza, Ceará",
-    "ogTitle": "Jorge Lucas | Engenharia de Computação, Software e IoT",
-    "ogDescription": "Portfólio profissional de Jorge Lucas, com projetos em desenvolvimento de software, backend, ciência de dados, desenvolvimento web e IoT"
+    "ogTitle": "Jorge Lucas | Engenharia de Computação, Desenvolvimento de Software e Análise de Dados",
+    "ogDescription": "Portfólio profissional de Jorge Lucas, com projetos em desenvolvimento de software, backend, ciência de dados, desenvolvimento web e Análise de Dados"
   },
 
   "hero": {
