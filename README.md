@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/jorge-lucas-silva" target="_blank">LinkedIn</a>
   ·
-  <a href="./static/Curriculo_Jorge_Lucas_Engenharia.pdf" target="_blank">Currículo</a>
+  <a href="./static/curriculo_jorge_lucas_computação.pdf" target="_blank">Currículo</a>
 </p>
 
 ---
